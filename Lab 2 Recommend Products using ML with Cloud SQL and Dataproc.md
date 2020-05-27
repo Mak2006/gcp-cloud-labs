@@ -13,8 +13,15 @@ Cloud SQL -> choose type of db (MySQL, Postgre, SQL server). We choose MySQL. We
 
 ![Being provisioned](https://i.imgur.com/dwiqKt1.png)
 
+## Connect to the instance using shell
+Open a cloud shell and fire.
+`gcloud sql connect rentals --user=root --quiet`
+The ip is whitlisted, password supplied and we are connected
+![connected to db](https://i.imgur.com/RyVmu6r.png)
 
-## Create tables, view data
+`show databases` will show the defualt db's
+
+## Create db and tables
 We now create a db using the following script
 ```
 CREATE DATABASE IF NOT EXISTS recommendation_spark;
@@ -59,13 +66,6 @@ CREATE TABLE  IF NOT EXISTS Recommendation
 
 SHOW DATABASES;
 ```
-## Connect to the instance using shell
-Open a cloud shell and fire.
-`gcloud sql connect rentals --user=root --quiet`
-The ip is whitlisted, password supplied and we are connected
-![connected to db](https://i.imgur.com/RyVmu6r.png)
-
-
 
 
 ## Data sourcing and load in to C SQL
@@ -145,6 +145,6 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwODc5MjYsNjI4OTE2OTMsLTE2MDQzMz
-Y2NDEsMTMwODQ0ODk3N119
+eyJoaXN0b3J5IjpbMTA2MTUyMjU2Niw2Mjg5MTY5MywtMTYwND
+MzNjY0MSwxMzA4NDQ4OTc3XX0=
 -->
