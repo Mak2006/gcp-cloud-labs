@@ -34,6 +34,8 @@ Here, we use Cloud SQL to store the data for the recommendation engine built on 
 
 ## Create a Cloud SQL instance
 ## Create tables, view data
+## Data sourcing and load in to C SQL
+## View the data
 
 
 
@@ -50,5 +52,5 @@ Here, we use Cloud SQL to store the data for the recommendation engine built on 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0NzE0NDExXX0=
+eyJoaXN0b3J5IjpbMTMwODQ0ODk3N119
 -->
