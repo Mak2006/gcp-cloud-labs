@@ -73,9 +73,22 @@ Set the instance to connec to
 ## Train and apply ML model written in PySpark to create product recommendations
 Run the ML model, this is pre created - Assume "Your data science team has created a recommendation model using Apache Spark and written in Python." Obtain this from 
 ```
-gsutil cp gs://cloud-training/bdml/v2.0/model/train_and_apply.py train_and_apply.py cloudshell edit train_and_apply.py
+gsutil cp gs://cloud-training/bdml/v2.0/model/train_and_apply.py train_and_apply.py
+cloudshell edit train_and_apply.py
 ```
+**train_and_apply.py**
+```
+past it here
+```
+
 We have to give access to our data store to train. 
+```
+# MAKE EDITS HERE
+CLOUDSQL_INSTANCE_IP = '<paste-your-cloud-sql-ip-here>'   # <---- CHANGE (database server IP)
+CLOUDSQL_DB_NAME = 'recommendation_spark' # <--- leave as-is
+CLOUDSQL_USER = 'root'  # <--- leave as-is
+CLOUDSQL_PWD  = '<type-your-cloud-sql-password-here>'  # <---- CHANGE
+```
 
 ## Explore inserted rows in Cloud SQL
 
@@ -94,5 +107,5 @@ We have to give access to our data store to train.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjkxNTkwNiwxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbMTY5NDA3OTk4NiwxMzA4NDQ4OTc3XX0=
 -->
