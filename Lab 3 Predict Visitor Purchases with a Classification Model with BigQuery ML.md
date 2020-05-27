@@ -1,7 +1,7 @@
 # Predict Visitor Purchases with a Classification Model with BigQuery ML
 
 These are notes taken as part of the course " Google Cloud Platform Big Data and Machine Learning Fundamentals" And was practiced with Qwiklabs.
-
+ 
  [BigQuery Machine Learning](https://cloud.google.com/bigquery/docs/bigqueryml-analyst-start) (BQML, product in beta) is a new feature in BigQuery where data analysts can create, train, evaluate, and predict with machine learning models with minimal coding.
 
 In this lab we peform the following 
@@ -13,5 +13,6 @@ In this lab we peform the following
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjk2OTIyMywtMTQ0NDA4OTQ1OF19
+eyJoaXN0b3J5IjpbLTM3MzkyNjA5NywxODIyOTY5MjIzLC0xND
+Q0MDg5NDU4XX0=
 -->
