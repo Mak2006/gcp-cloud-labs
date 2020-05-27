@@ -5,12 +5,16 @@ GCP has a lot of public data sets available on which we can run BigQuery. In thi
 
 Using Google BigQuery we can fire traditional SQL on massive data sets. We can programmaticallyuse this and also a variety of [third-party tools](https://cloud.google.com/bigquery/third-party-tools) that we can use to interact with BigQuery, such as visualizing the data or loading the data. In this lab, we access BigQuery using the web UI.
 
-## Choose and select a data set
+## Choose and select a data set from existing data sets
 
 ## View a data set
 
 ## Create a query and run it 
 
+## Create your own data set and query. 
+### Create a table using GCP
+### Load data
+### Preview table 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0MjM4NTc4LC0xMDY0NzYxMDM5XX0=
+eyJoaXN0b3J5IjpbOTc2MzUxMzQwLC0xMDY0NzYxMDM5XX0=
 -->
