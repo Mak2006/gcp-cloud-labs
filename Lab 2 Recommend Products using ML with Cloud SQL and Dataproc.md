@@ -76,7 +76,22 @@ SHOW TABLES;
 we see the 3 tables as intended and they have no data.
 
 ## Data sourcing and load in to Cloud SQL
-We obtain data from the project, store it in bucket and then load it. +
+We obtain data from the project, store it in bucket and then load it. 
+```
+echo "Creating bucket: gs://$DEVSHELL_PROJECT_ID"
+gsutil mb gs://$DEVSHELL_PROJECT_ID
+
+echo "Copying data to our storage from public dataset"
+gsutil cp gs://cloud-training/bdml/v2.0/data/accommodation.csv gs://$DEVSHELL_PROJECT_ID
+gsutil cp gs://cloud-training/bdml/v2.0/data/rating.csv gs://$DEVSHELL_PROJECT_ID
+
+echo "Show the files in our bucket"
+gsutil ls gs://$DEVSHELL_PROJECT_ID
+
+echo "View some sample data"
+gsutil cat gs://$DEVSHELL_PROJECT_ID/accommodation.csv
+```
+
 
 ## View the data
 ## Launch Dataproc
@@ -154,6 +169,7 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDgzMTg1OSwtNDY2MzI3NTc4LDYyOD
-kxNjkzLC0xNjA0MzM2NjQxLDEzMDg0NDg5NzddfQ==
+eyJoaXN0b3J5IjpbLTMyNzEzMDYxMiwxODAwODMxODU5LC00Nj
+YzMjc1NzgsNjI4OTE2OTMsLTE2MDQzMzY2NDEsMTMwODQ0ODk3
+N119
 -->
