@@ -94,7 +94,7 @@ gsutil cat gs://$DEVSHELL_PROJECT_ID/accommodation.csv
 ## View the data
 We can view the data using  gsutil
 ## Loading data into Cloud SQL
-Cloud SQL -> Import ->
+Loading via UI - Cloud SQL -> Import ->
 
 ## Launch Dataproc
 Select region
@@ -171,7 +171,7 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1MTIxMjA1LC0xMzUyOTM4NDAyLDE4MD
-A4MzE4NTksLTQ2NjMyNzU3OCw2Mjg5MTY5MywtMTYwNDMzNjY0
-MSwxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbMTgyNzM3ODYyMiwtMTM1MjkzODQwMiwxOD
+AwODMxODU5LC00NjYzMjc1NzgsNjI4OTE2OTMsLTE2MDQzMzY2
+NDEsMTMwODQ0ODk3N119
 -->
