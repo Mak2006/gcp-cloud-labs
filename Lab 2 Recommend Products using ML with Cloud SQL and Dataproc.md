@@ -75,7 +75,9 @@ SHOW TABLES;
 ```
 we see the 3 tables as intended and they have no data.
 
-## Data sourcing and load in to C SQL
+## Data sourcing and load in to Cloud SQL
+We obtain data from the project, store it in bucket and then load it. 
+
 ## View the data
 ## Launch Dataproc
 Select region
@@ -152,6 +154,6 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjgwNTM1NDcsNjI4OTE2OTMsLTE2MD
-QzMzY2NDEsMTMwODQ0ODk3N119
+eyJoaXN0b3J5IjpbLTQ2NjMyNzU3OCw2Mjg5MTY5MywtMTYwND
+MzNjY0MSwxMzA4NDQ4OTc3XX0=
 -->
