@@ -4,6 +4,11 @@ These are notes taken as part of the course " Google Cloud Platform Big Data and
 Here, we use Cloud SQL to store the data for the recommendation engine built on 	Spark ML. 
 
 Google Cloud SQL is a fully-managed database service that makes it easy to set-up, maintain, manage and administer your relational MySQL and PostgreSQL databases in the cloud.
+![Creating db](https://i.imgur.com/GOps0w5.png)
+
+![Being provisioned](https://i.imgur.com/dwiqKt1.png)
+
+
 
 ## Create a Cloud SQL instance
 Cloud SQL -> choose type of db (MySQL, Postgre, SQL server). We choose MySQL. We go with basic configuration. Note the password. 
@@ -85,6 +90,6 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTIzODk1NiwtMTYwNDMzNjY0MSwxMz
+eyJoaXN0b3J5IjpbMTIwNjUzMzE4NiwtMTYwNDMzNjY0MSwxMz
 A4NDQ4OTc3XX0=
 -->
