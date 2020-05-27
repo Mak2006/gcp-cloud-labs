@@ -4,15 +4,63 @@ These are notes taken as part of the course " Google Cloud Platform Big Data and
 Here, we use Cloud SQL to store the data for the recommendation engine built on 	Spark ML. 
 
 Google Cloud SQL is a fully-managed database service that makes it easy to set-up, maintain, manage and administer your relational MySQL and PostgreSQL databases in the cloud.
+
+
+## Create a Cloud SQL instance
+Cloud SQL -> choose type of db (MySQL, Postgre, SQL server). We choose MySQL. We go with basic configuration. Note the password. 
+
 ![Creating db](https://i.imgur.com/GOps0w5.png)
 
 ![Being provisioned](https://i.imgur.com/dwiqKt1.png)
 
 
-
-## Create a Cloud SQL instance
-Cloud SQL -> choose type of db (MySQL, Postgre, SQL server). We choose MySQL. We go with basic configuration. Note the password. 
 ## Create tables, view data
+We now create a db using the following script
+```
+CREATE DATABASE IF NOT EXISTS recommendation_spark;
+
+USE recommendation_spark;
+
+DROP TABLE IF EXISTS Recommendation;
+DROP TABLE IF EXISTS Rating;
+DROP TABLE IF EXISTS Accommodation;
+
+CREATE TABLE IF NOT EXISTS Accommodation
+(
+  id varchar(255),
+  title varchar(255),
+  location varchar(255),
+  price int,
+  rooms int,
+  rating float,
+  type varchar(255),
+  PRIMARY KEY (ID)
+);
+
+CREATE TABLE  IF NOT EXISTS Rating
+(
+  userId varchar(255),
+  accoId varchar(255),
+  rating int,
+  PRIMARY KEY(accoId, userId),
+  FOREIGN KEY (accoId)
+    REFERENCES Accommodation(id)
+);
+
+CREATE TABLE  IF NOT EXISTS Recommendation
+(
+  userId varchar(255),
+  accoId varchar(255),
+  prediction float,
+  PRIMARY KEY(userId, accoId),
+  FOREIGN KEY (accoId)
+    REFERENCES Accommodation(id)
+);
+
+SHOW DATABASES;
+```
+
+
 ## Data sourcing and load in to C SQL
 ## View the data
 ## Launch Dataproc
@@ -90,6 +138,6 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjUzMzE4NiwtMTYwNDMzNjY0MSwxMz
-A4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbNjI4OTE2OTMsLTE2MDQzMzY2NDEsMTMwOD
+Q0ODk3N119
 -->
