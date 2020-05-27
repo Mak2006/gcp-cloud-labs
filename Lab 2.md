@@ -1,6 +1,5 @@
-# Using Cloud SQL and SparkML
-
-
+# Using Cloud SQL and Spark
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODMxMzQzMywtMTM1NzE0NTY3MV19
+eyJoaXN0b3J5IjpbLTIwMDgyNzYzNDIsLTEzNTcxNDU2NzFdfQ
+==
 -->
