@@ -37,9 +37,12 @@ CREATE table -> Source (select upload) and select your file
 If it is a csv file, you would supply the schema, in our case it was
 `name:string,gender:string,count:integer` or it can be auto detected
 ### Preview table 
+we used auto schema generation, it could not decide the names as the sample file did not have one. 
+![enter image description here](https://i.imgur.com/m61ZTOM.png)
 
+The 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTgwOTU0NiwtNjY2OTg5NTM2LC0xNj
+eyJoaXN0b3J5IjpbLTY4NTU0NDg0NywtNjY2OTg5NTM2LC0xNj
 Q2MTA3ODU3LDg1MTkyMTczMCwxOTAwNzExMjMzLC0xMDY0NzYx
 MDM5XX0=
 -->
