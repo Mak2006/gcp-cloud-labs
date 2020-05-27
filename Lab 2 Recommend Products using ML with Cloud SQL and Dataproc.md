@@ -113,6 +113,16 @@ SELECT
 FROM Rating;
 ```
 ![enter image description here](https://i.imgur.com/D1K77ut.png)
+
+```
+SELECT
+    userId,
+    COUNT(rating) AS num_ratings
+FROM Rating
+GROUP BY userId
+ORDER BY num_ratings DESC;
+```
+We now move into analysing this using Dataproc
 ## Launch Dataproc
 Select region
 Enable API
@@ -188,8 +198,7 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTg3MTQ3NywtNDM2MTUwNjI2LDE4Mj
-czNzg2MjIsLTEzNTI5Mzg0MDIsMTgwMDgzMTg1OSwtNDY2MzI3
-NTc4LDYyODkxNjkzLC0xNjA0MzM2NjQxLDEzMDg0NDg5NzddfQ
-==
+eyJoaXN0b3J5IjpbNjExODcxNTE3LC00MzYxNTA2MjYsMTgyNz
+M3ODYyMiwtMTM1MjkzODQwMiwxODAwODMxODU5LC00NjYzMjc1
+NzgsNjI4OTE2OTMsLTE2MDQzMzY2NDEsMTMwODQ0ODk3N119
 -->
