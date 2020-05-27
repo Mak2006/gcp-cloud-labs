@@ -91,7 +91,8 @@ CLOUDSQL_PWD  = '<type-your-cloud-sql-password-here>'  # <---- CHANGE
 ```
 ## Run ML job on dataproc
 Select Job type, cluster and ML job to run. 
-Submit the job. Check if it succedd
+Submit the job. Check if it succeeds or fails. 
+
 
 ## Explore inserted rows in Cloud SQL
 
@@ -110,5 +111,5 @@ Submit the job. Check if it succedd
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3Njg5MjU1MywxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbLTE2MDQzMzY2NDEsMTMwODQ0ODk3N119
 -->
