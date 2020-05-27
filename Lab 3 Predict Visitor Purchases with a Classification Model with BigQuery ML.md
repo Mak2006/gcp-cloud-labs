@@ -4,7 +4,7 @@ These are notes taken as part of the course " Google Cloud Platform Big Data and
  
  [BigQuery Machine Learning](https://cloud.google.com/bigquery/docs/bigqueryml-analyst-start) (BQML, product in beta) is a new feature in BigQuery where data analysts can create, train, evaluate, and predict with machine learning models with minimal coding.
 
-Scenario, you have a data set loaded and we use big 
+Scenario, you have a data set loaded and we use BigQuery to get some insights. This is plain SQL. 
 
 In this lab we peform the following 
 1. Use BigQuery to find public datasets
@@ -15,6 +15,6 @@ In this lab we peform the following
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDIzNDcxNiwtMzczOTI2MDk3LDE4Mj
-I5NjkyMjMsLTE0NDQwODk0NThdfQ==
+eyJoaXN0b3J5IjpbMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMj
+k2OTIyMywtMTQ0NDA4OTQ1OF19
 -->
