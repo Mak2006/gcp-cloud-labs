@@ -66,6 +66,8 @@ CREATE TABLE  IF NOT EXISTS Recommendation
 
 SHOW DATABASES;
 ```
+![db created](https://i.imgur.com/fU38fYJ.png)
+
 
 
 ## Data sourcing and load in to C SQL
@@ -145,6 +147,6 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTUyMjU2Niw2Mjg5MTY5MywtMTYwND
-MzNjY0MSwxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbLTE0MzgwOTM0MjQsNjI4OTE2OTMsLTE2MD
+QzMzY2NDEsMTMwODQ0ODk3N119
 -->
