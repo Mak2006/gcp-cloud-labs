@@ -92,6 +92,7 @@ echo "View some sample data"
 gsutil cat gs://$DEVSHELL_PROJECT_ID/accommodation.csv
 ```
 ## View the data
+We can view the data using  gsutil
 
 ## Launch Dataproc
 Select region
@@ -168,7 +169,7 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI5Mzg0MDIsMTgwMDgzMTg1OSwtND
-Y2MzI3NTc4LDYyODkxNjkzLC0xNjA0MzM2NjQxLDEzMDg0NDg5
-NzddfQ==
+eyJoaXN0b3J5IjpbMjA1NzAyMzEyLC0xMzUyOTM4NDAyLDE4MD
+A4MzE4NTksLTQ2NjMyNzU3OCw2Mjg5MTY5MywtMTYwNDMzNjY0
+MSwxMzA4NDQ4OTc3XX0=
 -->
