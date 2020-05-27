@@ -40,10 +40,12 @@ If it is a csv file, you would supply the schema, in our case it was
 we used auto schema generation, it could not decide the names as the sample file did not have one. 
 ![enter image description here](https://i.imgur.com/m61ZTOM.png)
 
-The field names were changed.
+The field names were changed and we get the below.
+
+![enter image description here](https://i.imgur.com/yKizSRr.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTgzNjk3MCwtNjY2OTg5NTM2LC0xNj
-Q2MTA3ODU3LDg1MTkyMTczMCwxOTAwNzExMjMzLC0xMDY0NzYx
-MDM5XX0=
+eyJoaXN0b3J5IjpbNDAwMzkxODkzLC02NjY5ODk1MzYsLTE2ND
+YxMDc4NTcsODUxOTIxNzMwLDE5MDA3MTEyMzMsLTEwNjQ3NjEw
+MzldfQ==
 -->
