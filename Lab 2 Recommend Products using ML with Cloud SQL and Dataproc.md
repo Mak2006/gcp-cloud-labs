@@ -71,7 +71,11 @@ gcloud sql instances patch $CLOUDSQL --authorized-networks $ips
 ```
 Set the instance to connec to 
 ## Train and apply ML model written in PySpark to create product recommendations
-Run the ML model
+Run the ML model, this is pre created - Assume "Your data science team has created a recommendation model using Apache Spark and written in Python." Obtain this from 
+```
+gsutil cp gs://cloud-training/bdml/v2.0/model/train_and_apply.py train_and_apply.py cloudshell edit train_and_apply.py
+```
+We have to give access to our data store to train. 
 
 ## Explore inserted rows in Cloud SQL
 
@@ -90,5 +94,5 @@ Run the ML model
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTY4MzE1LDEzMDg0NDg5NzddfQ==
+eyJoaXN0b3J5IjpbMTUxMjkxNTkwNiwxMzA4NDQ4OTc3XX0=
 -->
