@@ -12,13 +12,25 @@ View the  schema or preview it
 ![Usa Names data set](https://i.imgur.com/ksJrZqC.png)
 
 ## Create a query and run it 
-
+```
+SELECT
+  name, gender,
+  SUM(number) AS total
+FROM
+  `bigquery-public-data.usa_names.usa_1910_2013`
+GROUP BY
+  name, gender
+ORDER BY
+  total DESC
+LIMIT
+  10
+```
 ## Create your own data set and query. 
 ### Create a table using GCP
 ### Load data
 ### Preview table 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwNTQyNzAyLDg1MTkyMTczMCwxOTAwNz
-ExMjMzLC0xMDY0NzYxMDM5XX0=
+eyJoaXN0b3J5IjpbLTEyMjcyNjQ5MDIsODUxOTIxNzMwLDE5MD
+A3MTEyMzMsLTEwNjQ3NjEwMzldfQ==
 -->
