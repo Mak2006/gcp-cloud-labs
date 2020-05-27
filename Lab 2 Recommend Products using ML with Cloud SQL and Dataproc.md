@@ -76,7 +76,7 @@ SHOW TABLES;
 we see the 3 tables as intended and they have no data.
 
 ## Data sourcing and load in to Cloud SQL
-We obtain data from the project, store it in bucket and then load it. 
+We obtain data from the project, store it in bucket and then load it. +
 
 ## View the data
 ## Launch Dataproc
@@ -154,6 +154,6 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjMyNzU3OCw2Mjg5MTY5MywtMTYwND
-MzNjY0MSwxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbMTgwMDgzMTg1OSwtNDY2MzI3NTc4LDYyOD
+kxNjkzLC0xNjA0MzM2NjQxLDEzMDg0NDg5NzddfQ==
 -->
