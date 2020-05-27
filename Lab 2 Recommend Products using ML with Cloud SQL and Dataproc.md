@@ -97,6 +97,7 @@ We can view the data using  gsutil
 Loading via UI - Cloud SQL -> Import ->
 ![enter image description here](https://i.imgur.com/9KVQ1ef.png)
 
+
 ## Launch Dataproc
 Select region
 Enable API
@@ -172,7 +173,7 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mzg1NTQzNywxODI3Mzc4NjIyLC0xMz
-UyOTM4NDAyLDE4MDA4MzE4NTksLTQ2NjMyNzU3OCw2Mjg5MTY5
-MywtMTYwNDMzNjY0MSwxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbLTEzNzYwOTMzODEsMTgyNzM3ODYyMiwtMT
+M1MjkzODQwMiwxODAwODMxODU5LC00NjYzMjc1NzgsNjI4OTE2
+OTMsLTE2MDQzMzY2NDEsMTMwODQ0ODk3N119
 -->
