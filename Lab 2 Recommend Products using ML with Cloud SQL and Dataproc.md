@@ -99,8 +99,19 @@ Loading via UI - Cloud SQL -> Import ->
 Loading the rating csv
 ![rating data](https://i.imgur.com/xGRtipY.png)
 
+We check the numbe rof  rows loaded
+![rows loaded](https://i.imgur.com/HBTLXMC.png)
 
-
+Do some calculations
+```
+SELECT
+    COUNT(userId) AS num_ratings,
+    COUNT(DISTINCT userId) AS distinct_user_ratings,
+    MIN(rating) AS worst_rating,
+    MAX(rating) AS best_rating,
+    AVG(rating) AS avg_rating
+FROM Rating;
+```
 ## Launch Dataproc
 Select region
 Enable API
@@ -176,7 +187,8 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjE1MDYyNiwxODI3Mzc4NjIyLC0xMz
-UyOTM4NDAyLDE4MDA4MzE4NTksLTQ2NjMyNzU3OCw2Mjg5MTY5
-MywtMTYwNDMzNjY0MSwxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbLTE1NDgwNzg5MDgsLTQzNjE1MDYyNiwxOD
+I3Mzc4NjIyLC0xMzUyOTM4NDAyLDE4MDA4MzE4NTksLTQ2NjMy
+NzU3OCw2Mjg5MTY5MywtMTYwNDMzNjY0MSwxMzA4NDQ4OTc3XX
+0=
 -->
