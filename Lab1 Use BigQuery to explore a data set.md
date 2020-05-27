@@ -7,7 +7,10 @@ Using Google BigQuery we can fire traditional SQL on massive data sets. We can p
 
 ## Choose and select a data set
 
+## View a data set
+
+## Create a query and run it 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk5MTk5NTIsLTEwNjQ3NjEwMzldfQ
-==
+eyJoaXN0b3J5IjpbMjI0MjM4NTc4LC0xMDY0NzYxMDM5XX0=
 -->
