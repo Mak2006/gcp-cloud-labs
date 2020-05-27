@@ -37,6 +37,10 @@ Here, we use Cloud SQL to store the data for the recommendation engine built on 
 ## Data sourcing and load in to C SQL
 ## View the data
 ## Launch Dataproc
+Select region
+Enable API
+Create Cluster
+Select master and worker nodes
 ## Train and apply ML model written in PySpark to create product recommendations
 ## Explore inserted rows in Cloud SQL
 
@@ -55,5 +59,5 @@ Here, we use Cloud SQL to store the data for the recommendation engine built on 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTA0MjYzMSwxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbLTg3MzY0MDk0MCwxMzA4NDQ4OTc3XX0=
 -->
