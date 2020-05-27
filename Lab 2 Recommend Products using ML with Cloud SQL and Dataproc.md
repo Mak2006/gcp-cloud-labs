@@ -89,6 +89,7 @@ CLOUDSQL_DB_NAME = 'recommendation_spark' # <--- leave as-is
 CLOUDSQL_USER = 'root'  # <--- leave as-is
 CLOUDSQL_PWD  = '<type-your-cloud-sql-password-here>'  # <---- CHANGE
 ```
+## Run ML job on dataproc
 
 ## Explore inserted rows in Cloud SQL
 
@@ -107,5 +108,5 @@ CLOUDSQL_PWD  = '<type-your-cloud-sql-password-here>'  # <---- CHANGE
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDA3OTk4NiwxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbLTE4NzMwNDI0NTgsMTMwODQ0ODk3N119
 -->
