@@ -112,6 +112,7 @@ SELECT
     AVG(rating) AS avg_rating
 FROM Rating;
 ```
+![enter image description here](https://i.imgur.com/D1K77ut.png)
 ## Launch Dataproc
 Select region
 Enable API
@@ -187,8 +188,8 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDgwNzg5MDgsLTQzNjE1MDYyNiwxOD
-I3Mzc4NjIyLC0xMzUyOTM4NDAyLDE4MDA4MzE4NTksLTQ2NjMy
-NzU3OCw2Mjg5MTY5MywtMTYwNDMzNjY0MSwxMzA4NDQ4OTc3XX
-0=
+eyJoaXN0b3J5IjpbLTc5NTg3MTQ3NywtNDM2MTUwNjI2LDE4Mj
+czNzg2MjIsLTEzNTI5Mzg0MDIsMTgwMDgzMTg1OSwtNDY2MzI3
+NTc4LDYyODkxNjkzLC0xNjA0MzM2NjQxLDEzMDg0NDg5NzddfQ
+==
 -->
