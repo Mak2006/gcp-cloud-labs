@@ -1,5 +1,5 @@
 # Use BigQuery to explore a public data set.
-This are notes taken as part of the course "## Google Cloud Platform Big Data and Machine Learning Fundamentals" And was practiced with Qwiklabs.
+These are notes taken as part of the course "## Google Cloud Platform Big Data and Machine Learning Fundamentals" And was practiced with Qwiklabs.
 
 GCP has a lot of public data sets available on which we can run BigQuery. In this lab, we shall  load a data set and query on them. 
 
@@ -48,5 +48,5 @@ We get the preview below
 ![##############](https://i.imgur.com/fr2EqWu.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTUxMTQxMTRdfQ==
+eyJoaXN0b3J5IjpbMzk1NjM3MDA1XX0=
 -->
