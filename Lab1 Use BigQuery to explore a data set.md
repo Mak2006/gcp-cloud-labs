@@ -30,11 +30,13 @@ LIMIT
 ## Create your own data set and query. 
 We now load a custom data set using GCP
 ![Creating a custome Ds](https://i.imgur.com/pjiC1vv.png)
+
 ### Create a table using GCP
+CREATE table -> Source (select upload)
 ### Load data
 ### Preview table 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjQwMjg3NiwtMTY0NjEwNzg1Nyw4NT
+eyJoaXN0b3J5IjpbLTY2Njk4OTUzNiwtMTY0NjEwNzg1Nyw4NT
 E5MjE3MzAsMTkwMDcxMTIzMywtMTA2NDc2MTAzOV19
 -->
