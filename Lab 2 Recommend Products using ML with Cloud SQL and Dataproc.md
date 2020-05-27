@@ -125,7 +125,7 @@ ORDER BY num_ratings DESC;
 We now move into analysing this using Dataproc
 ## Launch Dataproc
 Launch dataproc in the same region as your cloud sql instance.
-Select region
+Select region as global, zone as us-central1-a
 Enable API
 Create Cluster
 Select master and worker nodes as both n1-standard
@@ -199,7 +199,8 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5MjI5NTI3LC00MzYxNTA2MjYsMTgyNz
-M3ODYyMiwtMTM1MjkzODQwMiwxODAwODMxODU5LC00NjYzMjc1
-NzgsNjI4OTE2OTMsLTE2MDQzMzY2NDEsMTMwODQ0ODk3N119
+eyJoaXN0b3J5IjpbMTg5ODk2NTkzNSw4MjkyMjk1MjcsLTQzNj
+E1MDYyNiwxODI3Mzc4NjIyLC0xMzUyOTM4NDAyLDE4MDA4MzE4
+NTksLTQ2NjMyNzU3OCw2Mjg5MTY5MywtMTYwNDMzNjY0MSwxMz
+A4NDQ4OTc3XX0=
 -->
