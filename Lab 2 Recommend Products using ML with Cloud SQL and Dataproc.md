@@ -40,7 +40,10 @@ Here, we use Cloud SQL to store the data for the recommendation engine built on 
 Select region
 Enable API
 Create Cluster
-Select master and worker nodes
+Select master and worker nodes as both n1-standard
+Execute the bash script for patching and access
+```
+```
 ## Train and apply ML model written in PySpark to create product recommendations
 ## Explore inserted rows in Cloud SQL
 
@@ -59,5 +62,5 @@ Select master and worker nodes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzY0MDk0MCwxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbLTI4NTkyMTg2NSwxMzA4NDQ4OTc3XX0=
 -->
