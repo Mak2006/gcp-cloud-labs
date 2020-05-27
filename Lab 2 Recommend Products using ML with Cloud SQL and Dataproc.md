@@ -36,8 +36,9 @@ Here, we use Cloud SQL to store the data for the recommendation engine built on 
 ## Create tables, view data
 ## Data sourcing and load in to C SQL
 ## View the data
-## Generating housing recommendations with Machine Learning using Cloud Dataproc
-
+## Launch Dataproc
+## Train and apply ML model written in PySpark to create product recommendations
+## Explore inserted rows in Cloud SQL
 
 
 
@@ -54,5 +55,5 @@ Here, we use Cloud SQL to store the data for the recommendation engine built on 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzYwMzI5NiwxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbMTAxMTA0MjYzMSwxMzA4NDQ4OTc3XX0=
 -->
