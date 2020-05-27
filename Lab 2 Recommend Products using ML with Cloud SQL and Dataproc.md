@@ -126,9 +126,10 @@ We now move into analysing this using Dataproc
 ## Launch Dataproc
 Launch dataproc in the same region as your cloud sql instance.
 Select region as global, zone as us-central1-a
-Enable API
 Create Cluster
 Select master and worker nodes as both n1-standard
+Our cluster name  - cluster-906d
+
 Execute the bash script for patching and access
 ```
 echo "Authorizing Cloud Dataproc to connect with Cloud SQL"
@@ -199,8 +200,8 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODk2NTkzNSw4MjkyMjk1MjcsLTQzNj
-E1MDYyNiwxODI3Mzc4NjIyLC0xMzUyOTM4NDAyLDE4MDA4MzE4
-NTksLTQ2NjMyNzU3OCw2Mjg5MTY5MywtMTYwNDMzNjY0MSwxMz
-A4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbLTEzMTg3MDEzODgsODI5MjI5NTI3LC00Mz
+YxNTA2MjYsMTgyNzM3ODYyMiwtMTM1MjkzODQwMiwxODAwODMx
+ODU5LC00NjYzMjc1NzgsNjI4OTE2OTMsLTE2MDQzMzY2NDEsMT
+MwODQ0ODk3N119
 -->
