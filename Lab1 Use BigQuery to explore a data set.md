@@ -32,11 +32,14 @@ We now load a custom data set using GCP
 ![Creating a custome Ds](https://i.imgur.com/pjiC1vv.png)
 
 ### Create a table using GCP
-CREATE table -> Source (select upload)
+CREATE table -> Source (select upload) and select your file
 ### Load data
+If it is a csv file, you would supply the schema, in our case it was
+`name:string,gender:string,count:integer` or it can be auto detected
 ### Preview table 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2Njk4OTUzNiwtMTY0NjEwNzg1Nyw4NT
-E5MjE3MzAsMTkwMDcxMTIzMywtMTA2NDc2MTAzOV19
+eyJoaXN0b3J5IjpbMTE1NTgwOTU0NiwtNjY2OTg5NTM2LC0xNj
+Q2MTA3ODU3LDg1MTkyMTczMCwxOTAwNzExMjMzLC0xMDY0NzYx
+MDM5XX0=
 -->
