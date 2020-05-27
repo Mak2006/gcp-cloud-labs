@@ -59,6 +59,9 @@ CREATE TABLE  IF NOT EXISTS Recommendation
 
 SHOW DATABASES;
 ```
+## Connect to the instance using shell
+Open a cloud shell and fire.
+`gcloud sql connect rentals --user=root --quiet`
 
 
 ## Data sourcing and load in to C SQL
@@ -138,6 +141,6 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4OTE2OTMsLTE2MDQzMzY2NDEsMTMwOD
-Q0ODk3N119
+eyJoaXN0b3J5IjpbLTk0MjQxMTYwNCw2Mjg5MTY5MywtMTYwND
+MzNjY0MSwxMzA4NDQ4OTc3XX0=
 -->
