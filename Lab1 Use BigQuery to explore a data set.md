@@ -25,14 +25,16 @@ ORDER BY
 LIMIT
   10
 ```
-![Query run results
-](https://i.imgur.com/nFuFqBW.png)
+![Query run results](https://i.imgur.com/nFuFqBW.png)
+
 ## Create your own data set and query. 
+We now load a custom data set using GCP
+
 ### Create a table using GCP
 ### Load data
 ### Preview table 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1NDY2NTUsODUxOTIxNzMwLDE5MDA3MT
-EyMzMsLTEwNjQ3NjEwMzldfQ==
+eyJoaXN0b3J5IjpbLTE2NDYxMDc4NTcsODUxOTIxNzMwLDE5MD
+A3MTEyMzMsLTEwNjQ3NjEwMzldfQ==
 -->
