@@ -1,38 +1,12 @@
-# Using Cloud SQL and Spark
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Lab 2 - Recommend Products using ML with Cloud SQL and Dataproc
 These are notes taken as part of the course " Google Cloud Platform Big Data and Machine Learning Fundamentals" And was practiced with Qwiklabs.
 
 Here, we use Cloud SQL to store the data for the recommendation engine built on 	Spark ML. 
 
+Google Cloud SQL is a fully-managed database service that makes it easy to set-up, maintain, manage and administer your relational MySQL and PostgreSQL databases in the cloud.
+
 ## Create a Cloud SQL instance
+Cloud SQL -> choose type of db (MySQL, Postgre, SQL server), 
 ## Create tables, view data
 ## Data sourcing and load in to C SQL
 ## View the data
@@ -111,5 +85,6 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQzMzY2NDEsMTMwODQ0ODk3N119
+eyJoaXN0b3J5IjpbLTE1NDcxMjAwNzUsLTE2MDQzMzY2NDEsMT
+MwODQ0ODk3N119
 -->
