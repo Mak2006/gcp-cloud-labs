@@ -63,6 +63,9 @@ SHOW DATABASES;
 Open a cloud shell and fire.
 `gcloud sql connect rentals --user=root --quiet`
 The ip is whitlisted, password supplied and we are connected
+![connected to db](https://i.imgur.com/RyVmu6r.png)
+
+
 
 
 ## Data sourcing and load in to C SQL
@@ -142,6 +145,6 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzA5NDAwOCw2Mjg5MTY5MywtMTYwND
-MzNjY0MSwxMzA4NDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbNzcwODc5MjYsNjI4OTE2OTMsLTE2MDQzMz
+Y2NDEsMTMwODQ0ODk3N119
 -->
