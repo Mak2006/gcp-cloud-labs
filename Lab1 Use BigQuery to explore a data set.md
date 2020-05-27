@@ -9,7 +9,7 @@ Using Google BigQuery we can fire traditional SQL on massive data sets. We can p
 GCP->Big Query->Add Data -> choose any data set
 ### View a data set
 View the  schema or preview it 
-![enter image description here](https://i.imgur.com/ksJrZqC.png)
+![Usa Names data set](https://i.imgur.com/ksJrZqC.png)
 
 ## Create a query and run it 
 
@@ -19,6 +19,6 @@ View the  schema or preview it
 ### Preview table 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDMzNzQ5MCw4NTE5MjE3MzAsMTkwMD
-cxMTIzMywtMTA2NDc2MTAzOV19
+eyJoaXN0b3J5IjpbNDIwNTQyNzAyLDg1MTkyMTczMCwxOTAwNz
+ExMjMzLC0xMDY0NzYxMDM5XX0=
 -->
