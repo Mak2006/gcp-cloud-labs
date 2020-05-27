@@ -68,7 +68,12 @@ SHOW DATABASES;
 ```
 ![db created](https://i.imgur.com/fU38fYJ.png)
 
+```
+USE recommendation_spark;
 
+SHOW TABLES;
+```
+we see the 3 tables as intended and they have no data.
 
 ## Data sourcing and load in to C SQL
 ## View the data
@@ -147,6 +152,6 @@ Submit the job. Check if it succeeds or fails.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzgwOTM0MjQsNjI4OTE2OTMsLTE2MD
+eyJoaXN0b3J5IjpbLTEwNjgwNTM1NDcsNjI4OTE2OTMsLTE2MD
 QzMzY2NDEsMTMwODQ0ODk3N119
 -->
