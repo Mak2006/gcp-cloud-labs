@@ -32,6 +32,8 @@ SELECT
   total_purchasers / total_visitors AS conversion_rate
 FROM visitors, purchasers
 ```
+Result 
+![sample 1 results](https://i.imgur.com/S7agBwf.png)
 
 **Sample 2 ** What are the top 5 selling products?
 ```
@@ -448,7 +450,7 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTk3NTQ4NjMsMTIyMDE1ODE4NSwxMT
+eyJoaXN0b3J5IjpbLTE4Nzg1ODczMzUsMTIyMDE1ODE4NSwxMT
 I5Nzk0ODcsLTIxMjEwNjQ5ODYsMTE3NDQ3NTYzNCwtMTUyMDkw
 MDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOT
 UsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5
