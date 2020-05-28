@@ -119,6 +119,8 @@ The results
 
 ### Create a dataset
 Before launching the BQML we create a dataset.  We create the data set into the our project id. 
+![ds creation](https://i.imgur.com/JJDnTPz.png)
+
 
 ### Create a training and evaluation dataset to be used for batch prediction
 
@@ -466,9 +468,10 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIwNDEwOCwyMDIwNDcwMTMxLDEyMj
-AxNTgxODUsMTEyOTc5NDg3LC0yMTIxMDY0OTg2LDExNzQ0NzU2
-MzQsLTE1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMy
-wtNjcwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3Mzky
-NjA5NywxODIyOTY5MjIzLC0xNDQ0MDg5NDU4XX0=
+eyJoaXN0b3J5IjpbMTgyODIwMzM4MywtMTQ3MjA0MTA4LDIwMj
+A0NzAxMzEsMTIyMDE1ODE4NSwxMTI5Nzk0ODcsLTIxMjEwNjQ5
+ODYsMTE3NDQ3NTYzNCwtMTUyMDkwMDI5MywxMTIxMDA3MTMyLC
+0xMjQyMzI3NTEzLC02NzA5MjIzOTUsNTYzMTI1ODI2LDIwNzE0
+MzYzMiwtMzczOTI2MDk3LDE4MjI5NjkyMjMsLTE0NDQwODk0NT
+hdfQ==
 -->
