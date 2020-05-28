@@ -66,6 +66,7 @@ SELECT
 SELECT COUNT(DISTINCT fullvisitorid) AS total_visitors, will_buy_on_return_visit FROM all_visitor_stats GROUP BY will_buy_on_return_visit
 ```
 Results Sample 3
+![Sample 3 results](https://i.imgur.com/b2gzGPN.png)
 
 Now we shall use BQML to do get more ML based insights
 We ingest the data set, see th features available and preview the data. 
@@ -454,9 +455,9 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE5ODcyODMsMTIyMDE1ODE4NSwxMT
-I5Nzk0ODcsLTIxMjEwNjQ5ODYsMTE3NDQ3NTYzNCwtMTUyMDkw
-MDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOT
-UsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5
-NjkyMjMsLTE0NDQwODk0NThdfQ==
+eyJoaXN0b3J5IjpbMjAyMDQ3MDEzMSwxMjIwMTU4MTg1LDExMj
+k3OTQ4NywtMjEyMTA2NDk4NiwxMTc0NDc1NjM0LC0xNTIwOTAw
+MjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDkyMjM5NS
+w1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMjk2
+OTIyMywtMTQ0NDA4OTQ1OF19
 -->
