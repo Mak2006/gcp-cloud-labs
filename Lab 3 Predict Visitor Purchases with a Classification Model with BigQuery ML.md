@@ -60,6 +60,13 @@ SELECT COUNT(DISTINCT fullvisitorid) AS total_visitors, will_buy_on_return_visit
 Now we shall use BQML to do get more ML based insights
 We ingest the data set, see th features available and preview the data. 
 
+The BQML models
+| Model          | Model Type   | Label Data type                                        | Example                                                           |
+|----------------|--------------|--------------------------------------------------------|-------------------------------------------------------------------|
+| Forecasting    | linear_reg   | Numeric value (typically an integer or floating point) | Forecast sales figures for next year given historical sales data. |
+| Classification | logistic_reg | 0 or 1 for binary classification                       | Classify an email as spam or not spam given the context.          |
+
+
 We choose two features to ponder upon 
 -   `totals.bounces`  (whether the visitor left the website immediately)
 -   `totals.timeOnSite`  (how long the visitor was on our website)
@@ -92,6 +99,7 @@ The above returns the value of `will buy on return visit` as zero. It cannot pre
 **The value of building a ML model is to get the probability of future purchase based on the data gleaned about their first session.**
 
 So we now train our ML on the data using the SQL query.  Note we amend the query to focus on certain period and not the whole data. 
+We below qwiklabs-gcp-xxxxxxxxx:ecommerce.classification_model".
 ```
 CREATE OR REPLACE MODEL `ecommerce.classification_model`
 OPTIONS
@@ -126,11 +134,7 @@ FROM
   USING (fullVisitorId)
 ;
 ```
-The BQML models
-| Model          | Model Type   | Label Data type                                        | Example                                                           |
-|----------------|--------------|--------------------------------------------------------|-------------------------------------------------------------------|
-| Forecasting    | linear_reg   | Numeric value (typically an integer or floating point) | Forecast sales figures for next year given historical sales data. |
-| Classification | logistic_reg | 0 or 1 for binary classification                       | Classify an email as spam or not spam given the context.          |
+
 
 ### Create a training and evaluation dataset to be used for batch prediction
 Create data set , select BQML model, 
@@ -139,8 +143,8 @@ Create data set , select BQML model,
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzYyMzk3NzQsMTE3NDQ3NTYzNCwtMT
-UyMDkwMDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5
-MjIzOTUsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LD
-E4MjI5NjkyMjMsLTE0NDQwODk0NThdfQ==
+eyJoaXN0b3J5IjpbMTA3MDY4ODM3NSwxMTc0NDc1NjM0LC0xNT
+IwOTAwMjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDky
+MjM5NSw1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMT
+gyMjk2OTIyMywtMTQ0NDA4OTQ1OF19
 -->
