@@ -217,6 +217,8 @@ FROM
 ));
 ```
 
+Results
+![ROC existing](https://i.imgur.com/bWW49cF.png)
 ### Compare the ROC structures
 ```
 SELECT
@@ -479,10 +481,10 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDY4NDY5OCwtNjI1MDc1Njk5LDE4Mj
-gyMDMzODMsLTE0NzIwNDEwOCwyMDIwNDcwMTMxLDEyMjAxNTgx
-ODUsMTEyOTc5NDg3LC0yMTIxMDY0OTg2LDExNzQ0NzU2MzQsLT
-E1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMywtNjcw
-OTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3MzkyNjA5Ny
-wxODIyOTY5MjIzLC0xNDQ0MDg5NDU4XX0=
+eyJoaXN0b3J5IjpbLTEwODY0MTkxNTYsLTYyNTA3NTY5OSwxOD
+I4MjAzMzgzLC0xNDcyMDQxMDgsMjAyMDQ3MDEzMSwxMjIwMTU4
+MTg1LDExMjk3OTQ4NywtMjEyMTA2NDk4NiwxMTc0NDc1NjM0LC
+0xNTIwOTAwMjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3
+MDkyMjM5NSw1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOT
+csMTgyMjk2OTIyMywtMTQ0NDA4OTQ1OF19
 -->
