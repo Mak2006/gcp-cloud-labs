@@ -49,6 +49,8 @@ GROUP BY 1, 2
 ORDER BY revenue DESC
 LIMIT 5;
 ```
+Results Sample 2 - 
+
 **Sample 3** How many visitors bought on subsequent visits to the website?
 
 ```
@@ -450,9 +452,9 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg1ODczMzUsMTIyMDE1ODE4NSwxMT
-I5Nzk0ODcsLTIxMjEwNjQ5ODYsMTE3NDQ3NTYzNCwtMTUyMDkw
-MDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOT
-UsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5
-NjkyMjMsLTE0NDQwODk0NThdfQ==
+eyJoaXN0b3J5IjpbLTQ4MDAzMTE4NCwxMjIwMTU4MTg1LDExMj
+k3OTQ4NywtMjEyMTA2NDk4NiwxMTc0NDc1NjM0LC0xNTIwOTAw
+MjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDkyMjM5NS
+w1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMjk2
+OTIyMywtMTQ0NDA4OTQ1OF19
 -->
