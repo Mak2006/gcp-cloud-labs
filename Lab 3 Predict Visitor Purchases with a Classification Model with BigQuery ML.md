@@ -440,6 +440,8 @@ SELECT
 ORDER BY
   predicted_will_buy_on_return_visit DESC;
 ```
+The result
+![results](https://i.imgur.com/nHgz5Hl.png)
 
 The findings 
 
@@ -451,11 +453,11 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDczMzI0OSw0NTIwNjU4MTUsLTYzMD
-UzMzI3NCwtMTA4NjQxOTE1NiwtNjI1MDc1Njk5LDE4MjgyMDMz
-ODMsLTE0NzIwNDEwOCwyMDIwNDcwMTMxLDEyMjAxNTgxODUsMT
-EyOTc5NDg3LC0yMTIxMDY0OTg2LDExNzQ0NzU2MzQsLTE1MjA5
-MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMywtNjcwOTIyMz
-k1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3MzkyNjA5NywxODIy
-OTY5MjIzXX0=
+eyJoaXN0b3J5IjpbLTEyOTQwMjI2NTQsNDUyMDY1ODE1LC02Mz
+A1MzMyNzQsLTEwODY0MTkxNTYsLTYyNTA3NTY5OSwxODI4MjAz
+MzgzLC0xNDcyMDQxMDgsMjAyMDQ3MDEzMSwxMjIwMTU4MTg1LD
+ExMjk3OTQ4NywtMjEyMTA2NDk4NiwxMTc0NDc1NjM0LC0xNTIw
+OTAwMjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDkyMj
+M5NSw1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgy
+Mjk2OTIyM119
 -->
