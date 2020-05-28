@@ -31,15 +31,39 @@ FROM visitors, purchasers
 ```
 **Sample 2 ** What are the top 5 selling products?
 ```
+SELECT
+  p.v2ProductName,
+  p.v2ProductCategory,
+  SUM(p.productQuantity) AS units_sold,
+  ROUND(SUM(p.localProductRevenue/1000000),2) AS revenue
+FROM `data-to-insights.ecommerce.web_analytics`,
+UNNEST(hits) AS h,
+UNNEST(h.product) AS p
+GROUP BY 1, 2
+ORDER BY revenue DESC
+LIMIT 5;
+```
+**Sample 3** How many visitors bought on subsequent visits to the website?
 
 ```
+# visitors who bought on a return visit (could have bought on first as well
+WITH all_visitor_stats AS (
+SELECT
+  fullvisitorid, # 741,721 unique visitors
+  IF(COUNTIF(totals.transactions > 0 AND totals.newVisits IS NULL) > 0, 1, 0) AS will_buy_on_return_visit
+  FROM `data-to-insights.ecommerce.web_analytics`
+  GROUP BY fullvisitorid
+) 
+SELECT COUNT(DISTINCT fullvisitorid) AS total_visitors, will_buy_on_return_visit FROM all_visitor_stats GROUP BY will_buy_on_return_visit
+```
+
 3. Create a training and evaluation dataset to be used for batch prediction
 4. Create a classification (logistic regression) model in BQML
 5. Evaluate the performance of your machine learning model
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzMTIwMjkwLC02NzA5MjIzOTUsNTYzMT
-I1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5NjkyMjMs
-LTE0NDQwODk0NThdfQ==
+eyJoaXN0b3J5IjpbLTEyNDIzMjc1MTMsLTY3MDkyMjM5NSw1Nj
+MxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMjk2OTIy
+MywtMTQ0NDA4OTQ1OF19
 -->
