@@ -290,7 +290,8 @@ SELECT * EXCEPT(unique_session_id) FROM (
 );
 ```
 
-We check the ROC n 
+We check the ROC now usin gthe query below . 
+Note this ROC is different from the previous query. 
 ```
 #standardSQL
 SELECT
@@ -445,11 +446,11 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzOTM3ODA5LC0xMDg2NDE5MTU2LC02Mj
-UwNzU2OTksMTgyODIwMzM4MywtMTQ3MjA0MTA4LDIwMjA0NzAx
-MzEsMTIyMDE1ODE4NSwxMTI5Nzk0ODcsLTIxMjEwNjQ5ODYsMT
-E3NDQ3NTYzNCwtMTUyMDkwMDI5MywxMTIxMDA3MTMyLC0xMjQy
-MzI3NTEzLC02NzA5MjIzOTUsNTYzMTI1ODI2LDIwNzE0MzYzMi
-wtMzczOTI2MDk3LDE4MjI5NjkyMjMsLTE0NDQwODk0NThdfQ==
+eyJoaXN0b3J5IjpbLTEwNjIwNjg1ODgsLTEwODY0MTkxNTYsLT
+YyNTA3NTY5OSwxODI4MjAzMzgzLC0xNDcyMDQxMDgsMjAyMDQ3
+MDEzMSwxMjIwMTU4MTg1LDExMjk3OTQ4NywtMjEyMTA2NDk4Ni
+wxMTc0NDc1NjM0LC0xNTIwOTAwMjkzLDExMjEwMDcxMzIsLTEy
+NDIzMjc1MTMsLTY3MDkyMjM5NSw1NjMxMjU4MjYsMjA3MTQzNj
+MyLC0zNzM5MjYwOTcsMTgyMjk2OTIyMywtMTQ0NDA4OTQ1OF19
 
 -->
