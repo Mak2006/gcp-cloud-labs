@@ -136,12 +136,16 @@ FROM
   USING (fullVisitorId)
 ;
 ```
+On running this our model is being trained on the data and we have our model with the features value
 ### Evaluate the performance of your machine learning model
+
+### Compare the ROC structures
+
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDEzODQ0NTAsMTE3NDQ3NTYzNCwtMT
-UyMDkwMDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5
-MjIzOTUsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LD
-E4MjI5NjkyMjMsLTE0NDQwODk0NThdfQ==
+eyJoaXN0b3J5IjpbNjcwNzYyMDksMTE3NDQ3NTYzNCwtMTUyMD
+kwMDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIz
+OTUsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4Mj
+I5NjkyMjMsLTE0NDQwODk0NThdfQ==
 -->
