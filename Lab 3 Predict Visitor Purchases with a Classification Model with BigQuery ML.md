@@ -77,10 +77,10 @@ The BQML models
 | Forecasting    | linear_reg   | Numeric value (typically an integer or floating point) | Forecast sales figures for next year given historical sales data. |
 | Classification | logistic_reg | 0 or 1 for binary classification                       | Classify an email as spam or not spam given the context.          |
 
-
-We choose two features to ponder upon 
+Before we can use BQML we choose two features to start with, these are  
 -   `totals.bounces`  (whether the visitor left the website immediately)
 -   `totals.timeOnSite`  (how long the visitor was on our website)
+Using this we create the model a
 ```
 SELECT
   * EXCEPT(fullVisitorId)
@@ -455,9 +455,9 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDQ3MDEzMSwxMjIwMTU4MTg1LDExMj
-k3OTQ4NywtMjEyMTA2NDk4NiwxMTc0NDc1NjM0LC0xNTIwOTAw
-MjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDkyMjM5NS
-w1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMjk2
-OTIyMywtMTQ0NDA4OTQ1OF19
+eyJoaXN0b3J5IjpbMTUxODQxOTQzNSwyMDIwNDcwMTMxLDEyMj
+AxNTgxODUsMTEyOTc5NDg3LC0yMTIxMDY0OTg2LDExNzQ0NzU2
+MzQsLTE1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMy
+wtNjcwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3Mzky
+NjA5NywxODIyOTY5MjIzLC0xNDQ0MDg5NDU4XX0=
 -->
