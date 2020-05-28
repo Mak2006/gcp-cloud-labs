@@ -164,7 +164,12 @@ FROM
 ![training commences](https://i.imgur.com/Cxt1NOz.png)
 On running this our model is being trained on the data and we have our model with the features value populated.  We now do a prediction. 
 
+
 ### Check the generated model 
+**Training finishes**
+![enter image description here](https://i.imgur.com/EqEkPTs.png)
+
+
 
 
 ### Evaluate the performance of your machine learning model
@@ -473,10 +478,10 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTA3NTY5OSwxODI4MjAzMzgzLC0xND
-cyMDQxMDgsMjAyMDQ3MDEzMSwxMjIwMTU4MTg1LDExMjk3OTQ4
-NywtMjEyMTA2NDk4NiwxMTc0NDc1NjM0LC0xNTIwOTAwMjkzLD
-ExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDkyMjM5NSw1NjMx
-MjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMjk2OTIyMy
-wtMTQ0NDA4OTQ1OF19
+eyJoaXN0b3J5IjpbNjExMzc2ODQ5LC02MjUwNzU2OTksMTgyOD
+IwMzM4MywtMTQ3MjA0MTA4LDIwMjA0NzAxMzEsMTIyMDE1ODE4
+NSwxMTI5Nzk0ODcsLTIxMjEwNjQ5ODYsMTE3NDQ3NTYzNCwtMT
+UyMDkwMDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5
+MjIzOTUsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LD
+E4MjI5NjkyMjMsLTE0NDQwODk0NThdfQ==
 -->
