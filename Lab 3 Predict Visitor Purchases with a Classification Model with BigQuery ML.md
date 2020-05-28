@@ -57,13 +57,16 @@ SELECT
 SELECT COUNT(DISTINCT fullvisitorid) AS total_visitors, will_buy_on_return_visit FROM all_visitor_stats GROUP BY will_buy_on_return_visit
 ```
 
+Now we shall use BQML to do get more ML based insights
+We ingest the data set, see th features available and preview the data. 
+
 3. Create a training and evaluation dataset to be used for batch prediction
 4. Create a classification (logistic regression) model in BQML
 5. Evaluate the performance of your machine learning model
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIzMjc1MTMsLTY3MDkyMjM5NSw1Nj
-MxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMjk2OTIy
-MywtMTQ0NDA4OTQ1OF19
+eyJoaXN0b3J5IjpbMTEyMTAwNzEzMiwtMTI0MjMyNzUxMywtNj
+cwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3MzkyNjA5
+NywxODIyOTY5MjIzLC0xNDQ0MDg5NDU4XX0=
 -->
