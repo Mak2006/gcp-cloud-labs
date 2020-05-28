@@ -88,15 +88,20 @@ FROM
 ORDER BY time_on_site DESC
 LIMIT 10;
 ```
-The av
+The above returns the value of `will buy on return visit` as zero. It cannot predict. It is here ML is useful. 
+**The value of building a ML model is to get the probability of future purchase based on the data gleaned about their first session.**
 
-3. Create a training and evaluation dataset to be used for batch prediction
+So we now train our ML on the data 
+
+### Create a training and evaluation dataset to be used for batch prediction
+Create data set , select BQML model, 
 4. Create a classification (logistic regression) model in BQML
 5. Evaluate the performance of your machine learning model
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMTk1MDM0LDExMjEwMDcxMzIsLTEyND
-IzMjc1MTMsLTY3MDkyMjM5NSw1NjMxMjU4MjYsMjA3MTQzNjMy
-LC0zNzM5MjYwOTcsMTgyMjk2OTIyMywtMTQ0NDA4OTQ1OF19
+eyJoaXN0b3J5IjpbLTE1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMT
+I0MjMyNzUxMywtNjcwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2
+MzIsLTM3MzkyNjA5NywxODIyOTY5MjIzLC0xNDQ0MDg5NDU4XX
+0=
 -->
