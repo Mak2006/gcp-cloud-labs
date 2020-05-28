@@ -98,6 +98,8 @@ LIMIT 10;
 The above returns the value of `will buy on return visit` as zero. It cannot predict. It is here ML is useful. 
 **The value of building a ML model is to get the probability of future purchase based on the data gleaned about their first session.**
 
+### Create a training and evaluation dataset to be used for batch prediction
+
 So we now train our ML on the data using the SQL query.  Note we amend the query to focus on certain period and not the whole data. 
 We below create our BQML model qwiklabs-gcp-xxxxxxxxx:ecommerce.classification_model".
 ```
@@ -134,17 +136,12 @@ FROM
   USING (fullVisitorId)
 ;
 ```
-
-
-### Create a training and evaluation dataset to be used for batch prediction
-Create data set , select BQML model, 
-4. Create a classification (logistic regression) model in BQML
-5. Evaluate the performance of your machine learning model
+###Evaluate the performance of your machine learning model
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAyOTE1Mzk4LDExNzQ0NzU2MzQsLTE1Mj
-A5MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMywtNjcwOTIy
-Mzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3MzkyNjA5NywxOD
-IyOTY5MjIzLC0xNDQ0MDg5NDU4XX0=
+eyJoaXN0b3J5IjpbMTA4NjQ2MDE4NiwxMTc0NDc1NjM0LC0xNT
+IwOTAwMjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDky
+MjM5NSw1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMT
+gyMjk2OTIyMywtMTQ0NDA4OTQ1OF19
 -->
