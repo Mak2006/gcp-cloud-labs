@@ -136,16 +136,24 @@ FROM
   USING (fullVisitorId)
 ;
 ```
-On running this our model is being trained on the data and we have our model with the features value
+On running this our model is being trained on the data and we have our model with the features value populated.  We now do a prediction. 
+
 ### Evaluate the performance of your machine learning model
+For classification problems in ML, you want to minimize the False Positive Rate (predict that the user will return and purchase and they don't) and maximize the True Positive Rate (predict that the user will return and purchase and they do).
+
+This relationship is visualized with a ROC (Receiver Operating Characteristic) curve like the one shown here, where you try to maximize the area under the curve or AUC:
+
+In BQML, **roc_auc** is simply a queryable field when evaluating your trained ML model.
+
+
 
 ### Compare the ROC structures
 
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNzYyMDksMTE3NDQ3NTYzNCwtMTUyMD
-kwMDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIz
-OTUsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4Mj
-I5NjkyMjMsLTE0NDQwODk0NThdfQ==
+eyJoaXN0b3J5IjpbLTQ0MjcyMDc1NSwxMTc0NDc1NjM0LC0xNT
+IwOTAwMjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDky
+MjM5NSw1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMT
+gyMjk2OTIyMywtMTQ0NDA4OTQ1OF19
 -->
