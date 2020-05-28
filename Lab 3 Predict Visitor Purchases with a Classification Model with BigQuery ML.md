@@ -7,7 +7,7 @@ These are notes taken as part of the course " Google Cloud Platform Big Data and
 Scenario, you have a data set loaded and we use BigQuery to get some insights. This is plain SQL. 
 
 ### Query and explore the ecommerce dataset
-**Sample query 1** 
+**Sample query 1 **   Out of the total visitors who visited our website, what % made a purchase?
 ```
 #standardSQL
 WITH visitors AS(
@@ -29,14 +29,17 @@ SELECT
   total_purchasers / total_visitors AS conversion_rate
 FROM visitors, purchasers
 ```
+**Sample 2 ** What are the top 5 selling products?
+```
 
+```
 3. Create a training and evaluation dataset to be used for batch prediction
 4. Create a classification (logistic regression) model in BQML
 5. Evaluate the performance of your machine learning model
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDkyMjM5NSw1NjMxMjU4MjYsMjA3MT
-QzNjMyLC0zNzM5MjYwOTcsMTgyMjk2OTIyMywtMTQ0NDA4OTQ1
-OF19
+eyJoaXN0b3J5IjpbMzIzMTIwMjkwLC02NzA5MjIzOTUsNTYzMT
+I1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5NjkyMjMs
+LTE0NDQwODk0NThdfQ==
 -->
