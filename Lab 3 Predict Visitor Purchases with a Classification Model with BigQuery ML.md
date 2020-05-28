@@ -108,7 +108,11 @@ FROM
 ORDER BY time_on_site DESC
 LIMIT 10;
 ```
-The above returns the value of `will buy on return visit` as zero. It cannot predict. It is here ML is useful. 
+The above returns the value of `will buy on return visit` as zero. It cannot predict.
+The results
+![feature search](https://i.imgur.com/9j65gIq.png)
+
+ It is here ML is useful. 
 **The value of building a ML model is to get the probability of future purchase based on the data gleaned about their first session.**
 
 ### Create a training and evaluation dataset to be used for batch prediction
@@ -457,9 +461,9 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDIyNzcxNSwyMDIwNDcwMTMxLDEyMj
-AxNTgxODUsMTEyOTc5NDg3LC0yMTIxMDY0OTg2LDExNzQ0NzU2
-MzQsLTE1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMy
-wtNjcwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3Mzky
-NjA5NywxODIyOTY5MjIzLC0xNDQ0MDg5NDU4XX0=
+eyJoaXN0b3J5IjpbLTE2NzAwNjg4ODYsMjAyMDQ3MDEzMSwxMj
+IwMTU4MTg1LDExMjk3OTQ4NywtMjEyMTA2NDk4NiwxMTc0NDc1
+NjM0LC0xNTIwOTAwMjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MT
+MsLTY3MDkyMjM5NSw1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5
+MjYwOTcsMTgyMjk2OTIyMywtMTQ0NDA4OTQ1OF19
 -->
