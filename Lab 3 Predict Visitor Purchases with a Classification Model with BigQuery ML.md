@@ -117,6 +117,8 @@ The results
  It is here ML is useful. 
 **The value of building a ML model is to get the probability of future purchase based on the data gleaned about their first session.**
 
+### Create a dataset
+Before launching the BQML we crea
 ### Create a training and evaluation dataset to be used for batch prediction
 
 So we now train our ML on the data using the SQL query.  Note we amend the query to focus on certain period and not the whole data. 
@@ -463,7 +465,7 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2OTUzMTM0NCwyMDIwNDcwMTMxLDEyMj
+eyJoaXN0b3J5IjpbLTg1NjkwNDQ0NiwyMDIwNDcwMTMxLDEyMj
 AxNTgxODUsMTEyOTc5NDg3LC0yMTIxMDY0OTg2LDExNzQ0NzU2
 MzQsLTE1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMy
 wtNjcwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3Mzky
