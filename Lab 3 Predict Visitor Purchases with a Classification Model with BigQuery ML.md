@@ -91,7 +91,17 @@ LIMIT 10;
 The above returns the value of `will buy on return visit` as zero. It cannot predict. It is here ML is useful. 
 **The value of building a ML model is to get the probability of future purchase based on the data gleaned about their first session.**
 
-So we now train our ML on the data 
+So we now train our ML on the data using the SQL query. 
+```
+CREATE OR REPLACE MODEL `ecommerce.classification_model`
+OPTIONS
+(
+model_type='logistic_reg',
+labels = ['will_buy_on_return_visit']
+)
+AS
+{replace the query}
+```
 
 ### Create a training and evaluation dataset to be used for batch prediction
 Create data set , select BQML model, 
@@ -100,8 +110,8 @@ Create data set , select BQML model,
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMT
-I0MjMyNzUxMywtNjcwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2
-MzIsLTM3MzkyNjA5NywxODIyOTY5MjIzLC0xNDQ0MDg5NDU4XX
-0=
+eyJoaXN0b3J5IjpbLTE1Nzg1MDU2MjgsLTE1MjA5MDAyOTMsMT
+EyMTAwNzEzMiwtMTI0MjMyNzUxMywtNjcwOTIyMzk1LDU2MzEy
+NTgyNiwyMDcxNDM2MzIsLTM3MzkyNjA5NywxODIyOTY5MjIzLC
+0xNDQ0MDg5NDU4XX0=
 -->
