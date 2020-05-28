@@ -160,7 +160,12 @@ FROM
   USING (fullVisitorId)
 ;
 ```
+**Training commences**
+![training commences](https://i.imgur.com/Cxt1NOz.png)
 On running this our model is being trained on the data and we have our model with the features value populated.  We now do a prediction. 
+
+### Check the generated model 
+
 
 ### Evaluate the performance of your machine learning model
 For classification problems in ML, you want to minimize the False Positive Rate (predict that the user will return and purchase and they don't) and maximize the True Positive Rate (predict that the user will return and purchase and they do). This relationship is visualized with a ROC (Receiver Operating Characteristic).
@@ -468,10 +473,10 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODIwMzM4MywtMTQ3MjA0MTA4LDIwMj
-A0NzAxMzEsMTIyMDE1ODE4NSwxMTI5Nzk0ODcsLTIxMjEwNjQ5
-ODYsMTE3NDQ3NTYzNCwtMTUyMDkwMDI5MywxMTIxMDA3MTMyLC
-0xMjQyMzI3NTEzLC02NzA5MjIzOTUsNTYzMTI1ODI2LDIwNzE0
-MzYzMiwtMzczOTI2MDk3LDE4MjI5NjkyMjMsLTE0NDQwODk0NT
-hdfQ==
+eyJoaXN0b3J5IjpbLTYyNTA3NTY5OSwxODI4MjAzMzgzLC0xND
+cyMDQxMDgsMjAyMDQ3MDEzMSwxMjIwMTU4MTg1LDExMjk3OTQ4
+NywtMjEyMTA2NDk4NiwxMTc0NDc1NjM0LC0xNTIwOTAwMjkzLD
+ExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDkyMjM5NSw1NjMx
+MjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMjk2OTIyMy
+wtMTQ0NDA4OTQ1OF19
 -->
