@@ -80,7 +80,8 @@ The BQML models
 Before we can use BQML we choose two features to start with, these are  
 -   `totals.bounces`  (whether the visitor left the website immediately)
 -   `totals.timeOnSite`  (how long the visitor was on our website)
-Using this we create the model a
+Using this we create the model and check how good it is using ROC metrics described later.
+
 ```
 SELECT
   * EXCEPT(fullVisitorId)
@@ -455,7 +456,7 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODQxOTQzNSwyMDIwNDcwMTMxLDEyMj
+eyJoaXN0b3J5IjpbMTEzMTA1NTQ2NywyMDIwNDcwMTMxLDEyMj
 AxNTgxODUsMTEyOTc5NDg3LC0yMTIxMDY0OTg2LDExNzQ0NzU2
 MzQsLTE1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMy
 wtNjcwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3Mzky
