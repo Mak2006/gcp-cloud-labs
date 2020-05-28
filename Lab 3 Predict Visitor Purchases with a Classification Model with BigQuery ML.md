@@ -366,7 +366,8 @@ SELECT * EXCEPT(unique_session_id) FROM (
 The classification model 2 is generated
 ![Model 2](https://i.imgur.com/duh1HOE.png)
 
-the roc now is 
+the roc now is good
+![good ROC](https://i.imgur.com/HtTCxn6.png)
 
 
 ###  Predict which new visitors will come back and purchase
@@ -450,11 +451,11 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyMDY1ODE1LC02MzA1MzMyNzQsLTEwOD
-Y0MTkxNTYsLTYyNTA3NTY5OSwxODI4MjAzMzgzLC0xNDcyMDQx
-MDgsMjAyMDQ3MDEzMSwxMjIwMTU4MTg1LDExMjk3OTQ4NywtMj
-EyMTA2NDk4NiwxMTc0NDc1NjM0LC0xNTIwOTAwMjkzLDExMjEw
-MDcxMzIsLTEyNDIzMjc1MTMsLTY3MDkyMjM5NSw1NjMxMjU4Mj
-YsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMjk2OTIyMywtMTQ0
-NDA4OTQ1OF19
+eyJoaXN0b3J5IjpbODI4NTA1NTExLDQ1MjA2NTgxNSwtNjMwNT
+MzMjc0LC0xMDg2NDE5MTU2LC02MjUwNzU2OTksMTgyODIwMzM4
+MywtMTQ3MjA0MTA4LDIwMjA0NzAxMzEsMTIyMDE1ODE4NSwxMT
+I5Nzk0ODcsLTIxMjEwNjQ5ODYsMTE3NDQ3NTYzNCwtMTUyMDkw
+MDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOT
+UsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5
+NjkyMjNdfQ==
 -->
