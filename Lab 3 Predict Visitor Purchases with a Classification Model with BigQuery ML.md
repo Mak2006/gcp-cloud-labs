@@ -364,6 +364,7 @@ SELECT * EXCEPT(unique_session_id) FROM (
 ));
 ```
 The classification model 2 is generated
+![Model 2](https://i.imgur.com/duh1HOE.png)
 
 the roc now is 
 
@@ -449,11 +450,11 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU3NjYyNzUsLTYzMDUzMzI3NCwtMT
-A4NjQxOTE1NiwtNjI1MDc1Njk5LDE4MjgyMDMzODMsLTE0NzIw
-NDEwOCwyMDIwNDcwMTMxLDEyMjAxNTgxODUsMTEyOTc5NDg3LC
-0yMTIxMDY0OTg2LDExNzQ0NzU2MzQsLTE1MjA5MDAyOTMsMTEy
-MTAwNzEzMiwtMTI0MjMyNzUxMywtNjcwOTIyMzk1LDU2MzEyNT
-gyNiwyMDcxNDM2MzIsLTM3MzkyNjA5NywxODIyOTY5MjIzLC0x
-NDQ0MDg5NDU4XX0=
+eyJoaXN0b3J5IjpbNDUyMDY1ODE1LC02MzA1MzMyNzQsLTEwOD
+Y0MTkxNTYsLTYyNTA3NTY5OSwxODI4MjAzMzgzLC0xNDcyMDQx
+MDgsMjAyMDQ3MDEzMSwxMjIwMTU4MTg1LDExMjk3OTQ4NywtMj
+EyMTA2NDk4NiwxMTc0NDc1NjM0LC0xNTIwOTAwMjkzLDExMjEw
+MDcxMzIsLTEyNDIzMjc1MTMsLTY3MDkyMjM5NSw1NjMxMjU4Mj
+YsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMjk2OTIyMywtMTQ0
+NDA4OTQ1OF19
 -->
