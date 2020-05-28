@@ -91,7 +91,7 @@ LIMIT 10;
 The above returns the value of `will buy on return visit` as zero. It cannot predict. It is here ML is useful. 
 **The value of building a ML model is to get the probability of future purchase based on the data gleaned about their first session.**
 
-So we now train our ML on the data using the SQL query. 
+So we now train our ML on the data using the SQL query.  Note we amend the query to focus on certain period and not the whole data. 
 ```
 CREATE OR REPLACE MODEL `ecommerce.classification_model`
 OPTIONS
@@ -100,7 +100,31 @@ model_type='logistic_reg',
 labels = ['will_buy_on_return_visit']
 )
 AS
-{replace the query}
+
+#standardSQL
+SELECT
+  * EXCEPT(fullVisitorId)
+FROM
+
+  # features
+  (SELECT
+    fullVisitorId,
+    IFNULL(totals.bounces, 0) AS bounces,
+    IFNULL(totals.timeOnSite, 0) AS time_on_site
+  FROM
+    `data-to-insights.ecommerce.web_analytics`
+  WHERE
+    totals.newVisits = 1
+    AND date BETWEEN '20160801' AND '20170430') # train on first 9 months
+  JOIN
+  (SELECT
+    fullvisitorid,
+    IF(COUNTIF(totals.transactions > 0 AND totals.newVisits IS NULL) > 0, 1, 0) AS will_buy_on_return_visit
+  FROM
+      `data-to-insights.ecommerce.web_analytics`
+  GROUP BY fullvisitorid)
+  USING (fullVisitorId)
+;
 ```
 The BQML models
 | Model          | Model Type   | Label Data type                                        | Example                                                           |
@@ -115,8 +139,8 @@ Create data set , select BQML model,
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDQ3NTYzNCwtMTUyMDkwMDI5MywxMT
-IxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOTUsNTYzMTI1
-ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5NjkyMjMsLT
-E0NDQwODk0NThdfQ==
+eyJoaXN0b3J5IjpbLTEyMzYyMzk3NzQsMTE3NDQ3NTYzNCwtMT
+UyMDkwMDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5
+MjIzOTUsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LD
+E4MjI5NjkyMjMsLTE0NDQwODk0NThdfQ==
 -->
