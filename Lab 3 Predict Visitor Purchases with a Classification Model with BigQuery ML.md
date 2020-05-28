@@ -82,6 +82,7 @@ Before we can use BQML we choose two features to start with, these are
 -   `totals.timeOnSite`  (how long the visitor was on our website)
 Using this we create the model and check how good it is using ROC metrics described later.
 
+We first test the query in isolation which gives us these two vars. 
 ```
 SELECT
   * EXCEPT(fullVisitorId)
@@ -456,7 +457,7 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTA1NTQ2NywyMDIwNDcwMTMxLDEyMj
+eyJoaXN0b3J5IjpbMTg5NDIyNzcxNSwyMDIwNDcwMTMxLDEyMj
 AxNTgxODUsMTEyOTc5NDg3LC0yMTIxMDY0OTg2LDExNzQ0NzU2
 MzQsLTE1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMy
 wtNjcwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3Mzky
