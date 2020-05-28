@@ -372,7 +372,7 @@ the roc now is good
 
 ###  Predict which new visitors will come back and purchase
 We are now in a position to use the model and predict
-
+which new visitors will come back and make a purchase.
 ```
 SELECT
 *
@@ -451,11 +451,11 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4NTA1NTExLDQ1MjA2NTgxNSwtNjMwNT
-MzMjc0LC0xMDg2NDE5MTU2LC02MjUwNzU2OTksMTgyODIwMzM4
-MywtMTQ3MjA0MTA4LDIwMjA0NzAxMzEsMTIyMDE1ODE4NSwxMT
-I5Nzk0ODcsLTIxMjEwNjQ5ODYsMTE3NDQ3NTYzNCwtMTUyMDkw
-MDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOT
-UsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5
-NjkyMjNdfQ==
+eyJoaXN0b3J5IjpbLTE5NDczMzI0OSw0NTIwNjU4MTUsLTYzMD
+UzMzI3NCwtMTA4NjQxOTE1NiwtNjI1MDc1Njk5LDE4MjgyMDMz
+ODMsLTE0NzIwNDEwOCwyMDIwNDcwMTMxLDEyMjAxNTgxODUsMT
+EyOTc5NDg3LC0yMTIxMDY0OTg2LDExNzQ0NzU2MzQsLTE1MjA5
+MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMywtNjcwOTIyMz
+k1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3MzkyNjA5NywxODIy
+OTY5MjIzXX0=
 -->
