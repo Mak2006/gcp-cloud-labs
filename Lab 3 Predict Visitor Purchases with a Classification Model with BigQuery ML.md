@@ -102,7 +102,11 @@ labels = ['will_buy_on_return_visit']
 AS
 {replace the query}
 ```
-
+The BQML models
+| Model          | Model Type   | Label Data type                                        | Example                                                           |
+|----------------|--------------|--------------------------------------------------------|-------------------------------------------------------------------|
+| Forecasting    | linear_reg   | Numeric value (typically an integer or floating point) | Forecast sales figures for next year given historical sales data. |
+| Classification | logistic_reg | 0 or 1 for binary classification                       | Classify an email as spam or not spam given the context.          |
 
 ### Create a training and evaluation dataset to be used for batch prediction
 Create data set , select BQML model, 
@@ -111,7 +115,7 @@ Create data set , select BQML model,
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzAzNjI0MiwtMTUyMDkwMDI5MywxMT
+eyJoaXN0b3J5IjpbMTE3NDQ3NTYzNCwtMTUyMDkwMDI5MywxMT
 IxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOTUsNTYzMTI1
 ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5NjkyMjMsLT
 E0NDQwODk0NThdfQ==
