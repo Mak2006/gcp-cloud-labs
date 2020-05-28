@@ -145,15 +145,50 @@ This relationship is visualized with a ROC (Receiver Operating Characteristic) c
 
 In BQML, **roc_auc** is simply a queryable field when evaluating your trained ML model.
 
+```
+SELECT
+  roc_auc,
+  CASE
+    WHEN roc_auc > .9 THEN 'good'
+    WHEN roc_auc > .8 THEN 'fair'
+    WHEN roc_auc > .7 THEN 'not great'
+  ELSE 'poor' END AS model_quality
+FROM
+  ML.EVALUATE(MODEL ecommerce.classification_model,  (
 
+SELECT
+  * EXCEPT(fullVisitorId)
+FROM
+
+  # features
+  (SELECT
+    fullVisitorId,
+    IFNULL(totals.bounces, 0) AS bounces,
+    IFNULL(totals.timeOnSite, 0) AS time_on_site
+  FROM
+    `data-to-insights.ecommerce.web_analytics`
+  WHERE
+    totals.newVisits = 1
+    AND date BETWEEN '20170501' AND '20170630') # eval on 2 months
+  JOIN
+  (SELECT
+    fullvisitorid,
+    IF(COUNTIF(totals.transactions > 0 AND totals.newVisits IS NULL) > 0, 1, 0) AS will_buy_on_return_visit
+  FROM
+      `data-to-insights.ecommerce.web_analytics`
+  GROUP BY fullvisitorid)
+  USING (fullVisitorId)
+
+));
+```
 
 ### Compare the ROC structures
 
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjcyMDc1NSwxMTc0NDc1NjM0LC0xNT
-IwOTAwMjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDky
-MjM5NSw1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMT
-gyMjk2OTIyMywtMTQ0NDA4OTQ1OF19
+eyJoaXN0b3J5IjpbLTIxMjEwNjQ5ODYsMTE3NDQ3NTYzNCwtMT
+UyMDkwMDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5
+MjIzOTUsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LD
+E4MjI5NjkyMjMsLTE0NDQwODk0NThdfQ==
 -->
