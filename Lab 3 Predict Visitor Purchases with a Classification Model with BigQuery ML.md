@@ -112,7 +112,8 @@ The above returns the value of `will buy on return visit` is rule based and is n
 The results
 ![feature search](https://i.imgur.com/9j65gIq.png)
 
-Features and Labe
+**Features and Labels**  here the existing cols are the available features, and we have taken the two params as our features, the `will buy on return` is our label.
+
  It is here ML is useful. 
 **The value of building a ML model is to get the probability of future purchase based on the data gleaned about their first session.**
 
@@ -462,7 +463,7 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODU5MTI1MSwyMDIwNDcwMTMxLDEyMj
+eyJoaXN0b3J5IjpbMjA2OTUzMTM0NCwyMDIwNDcwMTMxLDEyMj
 AxNTgxODUsMTEyOTc5NDg3LC0yMTIxMDY0OTg2LDExNzQ0NzU2
 MzQsLTE1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMy
 wtNjcwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3Mzky
