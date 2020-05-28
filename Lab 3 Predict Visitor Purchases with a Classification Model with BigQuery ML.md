@@ -141,7 +141,7 @@ On running this our model is being trained on the data and we have our model wit
 ### Evaluate the performance of your machine learning model
 For classification problems in ML, you want to minimize the False Positive Rate (predict that the user will return and purchase and they don't) and maximize the True Positive Rate (predict that the user will return and purchase and they do). This relationship is visualized with a ROC (Receiver Operating Characteristic).
 
-**roc_auc** is just one of the performance metrics available during model evaluation. Also available are [accuracy, precision, and recall](https://en.wikipedia.org/wiki/Precision_and_recall).
+**roc_auc** is just one of the performance metrics available during model evaluation. Also available are [accuracy, precision, and recall] (https://en.wikipedia.org/wiki/Precision_and_recall).
 
 In BQML, **roc_auc** is simply a queryable field when evaluating your trained ML model.
 
@@ -444,9 +444,9 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDE1ODE4NSwxMTI5Nzk0ODcsLTIxMj
-EwNjQ5ODYsMTE3NDQ3NTYzNCwtMTUyMDkwMDI5MywxMTIxMDA3
-MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOTUsNTYzMTI1ODI2LD
-IwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5NjkyMjMsLTE0NDQw
-ODk0NThdfQ==
+eyJoaXN0b3J5IjpbLTE3NTE5ODg4ODksMTIyMDE1ODE4NSwxMT
+I5Nzk0ODcsLTIxMjEwNjQ5ODYsMTE3NDQ3NTYzNCwtMTUyMDkw
+MDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOT
+UsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5
+NjkyMjMsLTE0NDQwODk0NThdfQ==
 -->
