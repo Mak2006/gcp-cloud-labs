@@ -103,6 +103,7 @@ AS
 {replace the query}
 ```
 
+
 ### Create a training and evaluation dataset to be used for batch prediction
 Create data set , select BQML model, 
 4. Create a classification (logistic regression) model in BQML
@@ -110,8 +111,8 @@ Create data set , select BQML model,
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzg1MDU2MjgsLTE1MjA5MDAyOTMsMT
-EyMTAwNzEzMiwtMTI0MjMyNzUxMywtNjcwOTIyMzk1LDU2MzEy
-NTgyNiwyMDcxNDM2MzIsLTM3MzkyNjA5NywxODIyOTY5MjIzLC
-0xNDQ0MDg5NDU4XX0=
+eyJoaXN0b3J5IjpbMTgyNzAzNjI0MiwtMTUyMDkwMDI5MywxMT
+IxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOTUsNTYzMTI1
+ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5NjkyMjMsLT
+E0NDQwODk0NThdfQ==
 -->
