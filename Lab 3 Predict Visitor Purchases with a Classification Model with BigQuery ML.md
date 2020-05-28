@@ -118,7 +118,7 @@ The results
 **The value of building a ML model is to get the probability of future purchase based on the data gleaned about their first session.**
 
 ### Create a dataset
-Before launching the BQML we create a dataset.  We create the data set into the 
+Before launching the BQML we create a dataset.  We create the data set into the our project id. 
 
 ### Create a training and evaluation dataset to be used for batch prediction
 
@@ -466,7 +466,7 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTU1NTk0OCwyMDIwNDcwMTMxLDEyMj
+eyJoaXN0b3J5IjpbLTE0NzIwNDEwOCwyMDIwNDcwMTMxLDEyMj
 AxNTgxODUsMTEyOTc5NDg3LC0yMTIxMDY0OTg2LDExNzQ0NzU2
 MzQsLTE1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMyNzUxMy
 wtNjcwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLTM3Mzky
