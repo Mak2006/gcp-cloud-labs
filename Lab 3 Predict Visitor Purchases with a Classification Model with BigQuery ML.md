@@ -6,6 +6,9 @@ These are notes taken as part of the course " Google Cloud Platform Big Data and
 
 Scenario, you have a data set loaded and we use BigQuery to get some insights. This is plain SQL. 
 
+To get the data in BQML we use 
+[https://console.cloud.google.com/bigquery?p=data-to-insights&d=ecommerce&t=web_analytics&page=table](https://console.cloud.google.com/bigquery?p=data-to-insights&d=ecommerce&t=web_analytics&page=table)
+
 ### Query and explore the ecommerce dataset
 **Sample query 1 **   Out of the total visitors who visited our website, what % made a purchase?
 ```
@@ -444,7 +447,7 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTE5ODg4ODksMTIyMDE1ODE4NSwxMT
+eyJoaXN0b3J5IjpbLTEyOTY5NzE1NDQsMTIyMDE1ODE4NSwxMT
 I5Nzk0ODcsLTIxMjEwNjQ5ODYsMTE3NDQ3NTYzNCwtMTUyMDkw
 MDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOT
 UsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5
