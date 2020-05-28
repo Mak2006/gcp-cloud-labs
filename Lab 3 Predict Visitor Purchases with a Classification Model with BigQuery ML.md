@@ -136,12 +136,12 @@ FROM
   USING (fullVisitorId)
 ;
 ```
-###Evaluate the performance of your machine learning model
+### Evaluate the performance of your machine learning model
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjQ2MDE4NiwxMTc0NDc1NjM0LC0xNT
-IwOTAwMjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDky
-MjM5NSw1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMT
-gyMjk2OTIyMywtMTQ0NDA4OTQ1OF19
+eyJoaXN0b3J5IjpbLTIxNDEzODQ0NTAsMTE3NDQ3NTYzNCwtMT
+UyMDkwMDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5
+MjIzOTUsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LD
+E4MjI5NjkyMjMsLTE0NDQwODk0NThdfQ==
 -->
