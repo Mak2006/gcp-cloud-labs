@@ -6,15 +6,16 @@ These are notes taken as part of the course " Google Cloud Platform Big Data and
 
 Scenario, you have a data set loaded and we use BigQuery to get some insights. This is plain SQL. 
 
-In this lab we peform the following 
-1. Use BigQuery to find public datasets
-2. Query and explore the ecommerce dataset
+### Query and explore the ecommerce dataset
+```
+
+```
 3. Create a training and evaluation dataset to be used for batch prediction
 4. Create a classification (logistic regression) model in BQML
 5. Evaluate the performance of your machine learning model
 6. Predict and rank the probability that a visitor will make a purchase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMj
-k2OTIyMywtMTQ0NDA4OTQ1OF19
+eyJoaXN0b3J5IjpbNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOT
+I2MDk3LDE4MjI5NjkyMjMsLTE0NDQwODk0NThdfQ==
 -->
