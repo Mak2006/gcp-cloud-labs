@@ -452,12 +452,27 @@ The findings
 -   Overall, only 0.7% of first-time visitors make a purchase in a later visit.
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
+
+**Detailed findings - first few lines**
+
+| Row | predicted_will_buy_on_return_visit | predicted_will_buy_on_return_visit_probs.label | predicted_will_buy_on_return_visit_probs.prob | unique_session_id              | will_buy_on_return_visit | latest_ecommerce_progress | bounces | time_on_site | pageviews | source                | medium   | channelGrouping | deviceCategory | country       |
+|-----|------------------------------------|------------------------------------------------|-----------------------------------------------|--------------------------------|--------------------------|---------------------------|---------|--------------|-----------|-----------------------|----------|-----------------|----------------|---------------|
+| 1   |                                  1 |                                              1 |                            0.5901703067523366 | 8536556609536675806-1500010540 |                        0 |                         6 |       0 |         1876 |        14 | gdeals.googleplex.com | referral | Referral        | desktop        | United States |
+|     |                                    |                                              0 |                            0.4098296932476634 |                                |                          |                           |         |              |           |                       |          |                 |                |               |
+| 2   |                                  1 |                                              1 |                            0.7148854702753712 | 6423338283851490251-1500356571 |                        0 |                         6 |       0 |         3639 |        92 | mall.googleplex.com   | referral | Referral        | desktop        | United States |
+|     |                                    |                                              0 |                            0.2851145297246288 |                                |                          |                           |         |              |           |                       |          |                 |                |               |
+| 3   |                                  1 |                                              1 |                            0.5397907409180562 | 7874218760459469240-1500415713 |                        0 |                         6 |       0 |          281 |        12 | sites.google.com      | referral | Referral        | desktop        | United States |
+|     |                                    |                                              0 |                           0.46020925908194377 |                                |                          |                           |         |              |           |                       |          |                 |                |               |
+| 4   |                                  1 |                                              1 |                            0.5697423083620549 | 8791999544949838952-1500075690 |                        0 |                         6 |       0 |          917 |        21 | gdeals.googleplex.com | referral | Referral        | desktop        | United States |
+|     |                                    |                                              0 |                           0.43025769163794514 |                                |                          |                           |         |              |           |                       |          |                 |                |               |
+| 5   |                                  1 |                                              1 |                            0.6678917549682042 | 462669530882642366-1500436448  |                        0 |                         6 |       0 |         2141 |        27 | sites.google.com      | referral | Referral        | desktop        | United States |
+|     |                                    |                                              0 |                            0.3321082450317958 |                                |                          |                           |         |              |           |                       |          |                 |                |               |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQwMjI2NTQsNDUyMDY1ODE1LC02Mz
-A1MzMyNzQsLTEwODY0MTkxNTYsLTYyNTA3NTY5OSwxODI4MjAz
-MzgzLC0xNDcyMDQxMDgsMjAyMDQ3MDEzMSwxMjIwMTU4MTg1LD
-ExMjk3OTQ4NywtMjEyMTA2NDk4NiwxMTc0NDc1NjM0LC0xNTIw
-OTAwMjkzLDExMjEwMDcxMzIsLTEyNDIzMjc1MTMsLTY3MDkyMj
-M5NSw1NjMxMjU4MjYsMjA3MTQzNjMyLC0zNzM5MjYwOTcsMTgy
-Mjk2OTIyM119
+eyJoaXN0b3J5IjpbMTQ4Njg4MjU3LC0xMjk0MDIyNjU0LDQ1Mj
+A2NTgxNSwtNjMwNTMzMjc0LC0xMDg2NDE5MTU2LC02MjUwNzU2
+OTksMTgyODIwMzM4MywtMTQ3MjA0MTA4LDIwMjA0NzAxMzEsMT
+IyMDE1ODE4NSwxMTI5Nzk0ODcsLTIxMjEwNjQ5ODYsMTE3NDQ3
+NTYzNCwtMTUyMDkwMDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NT
+EzLC02NzA5MjIzOTUsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzcz
+OTI2MDk3XX0=
 -->
