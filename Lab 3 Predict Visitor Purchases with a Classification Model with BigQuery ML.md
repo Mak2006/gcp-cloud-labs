@@ -224,10 +224,11 @@ After evaluating your model you get a **roc_auc** of 0.72, which shows the model
 
 
 ### Feature engineering to increasing the roc
-
+We c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTc5NDg3LC0yMTIxMDY0OTg2LDExNz
-Q0NzU2MzQsLTE1MjA5MDAyOTMsMTEyMTAwNzEzMiwtMTI0MjMy
-NzUxMywtNjcwOTIyMzk1LDU2MzEyNTgyNiwyMDcxNDM2MzIsLT
-M3MzkyNjA5NywxODIyOTY5MjIzLC0xNDQ0MDg5NDU4XX0=
+eyJoaXN0b3J5IjpbNzY0MTg4ODE0LDExMjk3OTQ4NywtMjEyMT
+A2NDk4NiwxMTc0NDc1NjM0LC0xNTIwOTAwMjkzLDExMjEwMDcx
+MzIsLTEyNDIzMjc1MTMsLTY3MDkyMjM5NSw1NjMxMjU4MjYsMj
+A3MTQzNjMyLC0zNzM5MjYwOTcsMTgyMjk2OTIyMywtMTQ0NDA4
+OTQ1OF19
 -->
