@@ -10,7 +10,7 @@ To get the data in BQML we use
 [https://console.cloud.google.com/bigquery?p=data-to-insights&d=ecommerce&t=web_analytics&page=table](https://console.cloud.google.com/bigquery?p=data-to-insights&d=ecommerce&t=web_analytics&page=table)
 
 ### Query and explore the ecommerce dataset
-**Sample query 1 **   Out of the total visitors who visited our website, what % made a purchase?
+**Sample query 1** -   Out of the total visitors who visited our website, what % made a purchase?
 ```
 #standardSQL
 WITH visitors AS(
@@ -32,6 +32,7 @@ SELECT
   total_purchasers / total_visitors AS conversion_rate
 FROM visitors, purchasers
 ```
+
 **Sample 2 ** What are the top 5 selling products?
 ```
 SELECT
@@ -447,7 +448,7 @@ The findings
     
 -   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY5NzE1NDQsMTIyMDE1ODE4NSwxMT
+eyJoaXN0b3J5IjpbLTExOTk3NTQ4NjMsMTIyMDE1ODE4NSwxMT
 I5Nzk0ODcsLTIxMjEwNjQ5ODYsMTE3NDQ3NTYzNCwtMTUyMDkw
 MDI5MywxMTIxMDA3MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOT
 UsNTYzMTI1ODI2LDIwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5
