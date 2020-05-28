@@ -139,9 +139,9 @@ FROM
 On running this our model is being trained on the data and we have our model with the features value populated.  We now do a prediction. 
 
 ### Evaluate the performance of your machine learning model
-For classification problems in ML, you want to minimize the False Positive Rate (predict that the user will return and purchase and they don't) and maximize the True Positive Rate (predict that the user will return and purchase and they do).
+For classification problems in ML, you want to minimize the False Positive Rate (predict that the user will return and purchase and they don't) and maximize the True Positive Rate (predict that the user will return and purchase and they do). This relationship is visualized with a ROC (Receiver Operating Characteristic).
 
-This relationship is visualized with a ROC (Receiver Operating Characteristic) curve like the one shown here, where you try to maximize the area under the curve or AUC:
+**roc_auc** is just one of the performance metrics available during model evaluation. Also available are [accuracy, precision, and recall](https://en.wikipedia.org/wiki/Precision_and_recall).
 
 In BQML, **roc_auc** is simply a queryable field when evaluating your trained ML model.
 
@@ -434,8 +434,17 @@ ORDER BY
   predicted_will_buy_on_return_visit DESC;
 ```
 
+The findings 
+
+-   Of the top 6% of first-time visitors (sorted in decreasing order of predicted probability), more than 6% make a purchase in a later visit.
+    
+-   These users represent nearly 50% of all first-time visitors who make a purchase in a later visit.
+    
+-   Overall, only 0.7% of first-time visitors make a purchase in a later visit.
+    
+-   Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjU0NzYyNywxMTI5Nzk0ODcsLTIxMj
+eyJoaXN0b3J5IjpbMTIyMDE1ODE4NSwxMTI5Nzk0ODcsLTIxMj
 EwNjQ5ODYsMTE3NDQ3NTYzNCwtMTUyMDkwMDI5MywxMTIxMDA3
 MTMyLC0xMjQyMzI3NTEzLC02NzA5MjIzOTUsNTYzMTI1ODI2LD
 IwNzE0MzYzMiwtMzczOTI2MDk3LDE4MjI5NjkyMjMsLTE0NDQw
