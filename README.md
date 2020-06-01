@@ -1,3 +1,3 @@
 # gcp-cloud-labs
 
-Projects created using GCP cloud. 
+Spring based ML projects created using GCP cloud, Google Stackdriver, Google Spanner and Big Query
