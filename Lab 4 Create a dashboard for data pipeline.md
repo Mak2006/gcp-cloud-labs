@@ -90,6 +90,10 @@ Open DataStudion
 This is found int he Bigquery
 ![](https://i.imgur.com/R2F4bhh.png)
 
+![Welcome](https://i.imgur.com/x8UqrYn.png)
+
+Authorize 
+
 ```
 -   Chart type: column chart
 -   Date range dimension: dashboard_sort
@@ -101,9 +105,9 @@ This is found int he Bigquery
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTEyMDk2NjUsLTE5NDgxODU3NTgsND
-Y5MjQxNzk5LC0zOTcxMjMxMDcsLTUyMzExNTU2NywtMTExNDk5
-Mjg3OCwtMTc4NDI0MTA2MiwtMTQ5NjUxOTMxOCwtOTk2OTgzNT
-U1LC0xNTA3MTc1NDA5LDE4NTU3MTA0NzEsNDU5Njc2MDUyLDEy
-NzEzMzIyNTNdfQ==
+eyJoaXN0b3J5IjpbMTkyNjk2Nzk2MCwtMTk0ODE4NTc1OCw0Nj
+kyNDE3OTksLTM5NzEyMzEwNywtNTIzMTE1NTY3LC0xMTE0OTky
+ODc4LC0xNzg0MjQxMDYyLC0xNDk2NTE5MzE4LC05OTY5ODM1NT
+UsLTE1MDcxNzU0MDksMTg1NTcxMDQ3MSw0NTk2NzYwNTIsMTI3
+MTMzMjI1M119
 -->
