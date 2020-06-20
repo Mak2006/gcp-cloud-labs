@@ -28,7 +28,9 @@ passenger_count:integer -t taxirides.realtime
 **Set up Dataflow pipeline**
 Basically connects the pubsub to Bigquery. 
 Create job, using template PS to Bq,  topic is `projects/pubsub-public-data/topics/taxirides-realtime`  Bigquery table is `<myprojectid>:taxirides.realtime` Temporary locatin is `gs://<mybucket>/tmp/` Set it run. 
+Notes - About template **Cloud Pub/Sub to BigQuery**
 
+This template stages a streaming pipeline that reads JSON-formatted messages  from a Cloud Pub/Sub topic, transforms them using a Javascript user-defined  function (UDF), and writes them to a pre-existing BigQuery table as BigQuery  elements. You can use this template as a quick way to move Cloud Pub/Sub data to  BigQuery.
 
 **Analyse using Bq**
 `SELECT * FROM taxirides.realtime LIMIT 10` sample the data
@@ -82,7 +84,8 @@ Open DataStudion
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQ5OTI4NzgsLTE3ODQyNDEwNjIsLT
-E0OTY1MTkzMTgsLTk5Njk4MzU1NSwtMTUwNzE3NTQwOSwxODU1
-NzEwNDcxLDQ1OTY3NjA1MiwxMjcxMzMyMjUzXX0=
+eyJoaXN0b3J5IjpbLTUyMzExNTU2NywtMTExNDk5Mjg3OCwtMT
+c4NDI0MTA2MiwtMTQ5NjUxOTMxOCwtOTk2OTgzNTU1LC0xNTA3
+MTc1NDA5LDE4NTU3MTA0NzEsNDU5Njc2MDUyLDEyNzEzMzIyNT
+NdfQ==
 -->
