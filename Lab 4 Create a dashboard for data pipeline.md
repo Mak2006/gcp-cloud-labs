@@ -21,6 +21,7 @@ In this lab we do the following
 **Prepare Bigquery to receive data**
 `bq mk taxirides` # create a data set
 
+Create a schema
 ```
 bq mk \
 --time_partitioning_field timestamp \
@@ -29,6 +30,6 @@ timestamp:timestamp,meter_reading:float,meter_increment:float,ride_status:string
 passenger_count:integer -t taxirides.realtime
 ```  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Nzk5NjgxLC0xNTA3MTc1NDA5LDE4NT
+eyJoaXN0b3J5IjpbNjY3MTYyNTU3LC0xNTA3MTc1NDA5LDE4NT
 U3MTA0NzEsNDU5Njc2MDUyLDEyNzEzMzIyNTNdfQ==
 -->
