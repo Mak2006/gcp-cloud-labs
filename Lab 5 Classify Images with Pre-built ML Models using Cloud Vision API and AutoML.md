@@ -28,14 +28,16 @@ We have three diferent folders where the images are kept and we have an excel wh
 So our image files and the `data.csv` 	is ready. This is all AutoML requires.
 
 **Train - Auto ML **
-Create a **Single-Label Classification** 
+Create a **Single-Label Classification**, give the csv
+
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNDMxMTg0LDE2MDQwMzE3ODEsLTc2ND
-Q4NzMxNCw4MDkzNjI5MiwtMTQ2NzA4NjY1MSwtMjA3MzcxMTcx
-XX0=
+eyJoaXN0b3J5IjpbMTAyNDQ4NTYxMiwxNjA0MDMxNzgxLC03Nj
+Q0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2NTEsLTIwNzM3MTE3
+MV19
 -->
