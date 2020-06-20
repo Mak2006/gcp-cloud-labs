@@ -32,6 +32,9 @@ Notes - About template **Cloud Pub/Sub to BigQuery**
 
 This template stages a streaming pipeline that reads JSON-formatted messages  from a Cloud Pub/Sub topic, transforms them using a Javascript user-defined  function (UDF), and writes them to a pre-existing BigQuery table as BigQuery  elements. You can use this template as a quick way to move Cloud Pub/Sub data to  BigQuery.
 
+All the configurations 
+![](https://i.imgur.com/5hoLxj4.png)
+
 **Analyse using Bq**
 `SELECT * FROM taxirides.realtime LIMIT 10` sample the data
 
@@ -84,8 +87,8 @@ Open DataStudion
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzExNTU2NywtMTExNDk5Mjg3OCwtMT
-c4NDI0MTA2MiwtMTQ5NjUxOTMxOCwtOTk2OTgzNTU1LC0xNTA3
-MTc1NDA5LDE4NTU3MTA0NzEsNDU5Njc2MDUyLDEyNzEzMzIyNT
-NdfQ==
+eyJoaXN0b3J5IjpbMTc0NDE5NjM0OSwtNTIzMTE1NTY3LC0xMT
+E0OTkyODc4LC0xNzg0MjQxMDYyLC0xNDk2NTE5MzE4LC05OTY5
+ODM1NTUsLTE1MDcxNzU0MDksMTg1NTcxMDQ3MSw0NTk2NzYwNT
+IsMTI3MTMzMjI1M119
 -->
