@@ -9,9 +9,13 @@ In this lab we do the following
 -   Load streaming data into BigQuery
 -   Analyze and visualize the results
 
-Assumpt
+**Known Unknowns**
+1. Data schema
+2. Topic creation 
 
+**Prereqs** 
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM3MjE3MTIsMTg1NTcxMDQ3MSw0NT
+eyJoaXN0b3J5IjpbLTE5OTEzMzcxMTYsMTg1NTcxMDQ3MSw0NT
 k2NzYwNTIsMTI3MTMzMjI1M119
 -->
