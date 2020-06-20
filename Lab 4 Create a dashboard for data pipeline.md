@@ -86,6 +86,10 @@ GROUP BY minute, timestamp
 
 **Create dashboard**
 Open DataStudion
+
+This is found int he Bigquery
+![](https://i.imgur.com/R2F4bhh.png)
+
 ```
 -   Chart type: column chart
 -   Date range dimension: dashboard_sort
@@ -97,9 +101,9 @@ Open DataStudion
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDgxODU3NTgsNDY5MjQxNzk5LC0zOT
-cxMjMxMDcsLTUyMzExNTU2NywtMTExNDk5Mjg3OCwtMTc4NDI0
-MTA2MiwtMTQ5NjUxOTMxOCwtOTk2OTgzNTU1LC0xNTA3MTc1ND
-A5LDE4NTU3MTA0NzEsNDU5Njc2MDUyLDEyNzEzMzIyNTNdfQ==
-
+eyJoaXN0b3J5IjpbLTEwOTEyMDk2NjUsLTE5NDgxODU3NTgsND
+Y5MjQxNzk5LC0zOTcxMjMxMDcsLTUyMzExNTU2NywtMTExNDk5
+Mjg3OCwtMTc4NDI0MTA2MiwtMTQ5NjUxOTMxOCwtOTk2OTgzNT
+U1LC0xNTA3MTc1NDA5LDE4NTU3MTA0NzEsNDU5Njc2MDUyLDEy
+NzEzMzIyNTNdfQ==
 -->
