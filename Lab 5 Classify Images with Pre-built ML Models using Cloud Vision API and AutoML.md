@@ -31,13 +31,16 @@ So our image files and the `data.csv` 	is ready. This is all AutoML requires.
 Create a **Single-Label Classification**, give the csv
 
 This is a test data set,  having small number of images. The images is divided into training, cross validation and prediction set.   
-**What has happend during training** Based on the training set it has done feature 
+**What happens during training** Based on the training set it has done feature detection using multiple models and then selected the best one which worked best both on the training set and the cross validation set.  The model requires a name. 
+
+**Train has a cost**
+And Google gives a free tier initially 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzU2ODAyOSwxNjA0MDMxNzgxLC03Nj
+eyJoaXN0b3J5IjpbMTE1MDk0MDcxNiwxNjA0MDMxNzgxLC03Nj
 Q0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2NTEsLTIwNzM3MTE3
 MV19
 -->
