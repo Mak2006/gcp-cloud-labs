@@ -70,8 +70,19 @@ GROUP BY minute, timestamp
 
 
 **Create dashboard**
+Open DataStudion
+```
+-   Chart type: column chart
+-   Date range dimension: dashboard_sort
+-   Dimension: dashboard_sort, minute
+-   Drill Down: dashboard_sort
+-   Metric: SUM() total_rides, SUM() total_passengers, SUM() total_revenue
+-   Sort: dashboard_sort Ascending (latest rides first)
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQyNDEwNjIsLTE0OTY1MTkzMTgsLT
-k5Njk4MzU1NSwtMTUwNzE3NTQwOSwxODU1NzEwNDcxLDQ1OTY3
-NjA1MiwxMjcxMzMyMjUzXX0=
+eyJoaXN0b3J5IjpbLTExMTQ5OTI4NzgsLTE3ODQyNDEwNjIsLT
+E0OTY1MTkzMTgsLTk5Njk4MzU1NSwtMTUwNzE3NTQwOSwxODU1
+NzEwNDcxLDQ1OTY3NjA1MiwxMjcxMzMyMjUzXX0=
 -->
