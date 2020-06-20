@@ -13,11 +13,16 @@ Quite a big lab!! undestandable duet to AutoML init
 **Enable Auto ML**
 This can be done a command or from dashboard. 
 
+**Copy the data to a bucket**
+`gsutil mb gs://{projid}}`
+
+
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTY1NTYzMCwtNzY0NDg3MzE0LDgwOT
-M2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzExNzFdfQ==
+eyJoaXN0b3J5IjpbODA5MjUwMDg4LC03NjQ0ODczMTQsODA5Mz
+YyOTIsLTE0NjcwODY2NTEsLTIwNzM3MTE3MV19
 -->
