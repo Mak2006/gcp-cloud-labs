@@ -5,17 +5,19 @@ Overview - In this lab, you will experiment with pre-built models so there's no 
 
 Functional - In this lab you will upload images to Cloud Storage and use them to train a custom model to recognize different types of clouds (cumulus, cumulonimbus, etc.). Then try to classify new images based on what is learnt. 
 
-**Load >> Train >> Predict**
-This is the algo we follow.
-
+**Algo - Load >> Train >> Predict**
 
 Quite a big lab!! undestandable duet to AutoML init
 ![Whoops](https://i.imgur.com/qP8vnP6.png)
+
+**Enable Auto ML**
+This can be done a command or from dashboard. 
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM5MDgyNiwtNzY0NDg3MzE0LDgwOT
+eyJoaXN0b3J5IjpbMTU4NTY1NTYzMCwtNzY0NDg3MzE0LDgwOT
 M2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzExNzFdfQ==
 -->
