@@ -30,15 +30,14 @@ So our image files and the `data.csv` 	is ready. This is all AutoML requires.
 **Train - Auto ML **
 Create a **Single-Label Classification**, give the csv
 
-**What has happend during training**
-This is a test data set,  having small number of images. The images is divided into training, cross validation and prediction set. 
-
+This is a test data set,  having small number of images. The images is divided into training, cross validation and prediction set.   
+**What has happend during training** Based on the training set it has done feature 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY5MDk2MDcsMTYwNDAzMTc4MSwtNz
-Y0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzEx
-NzFdfQ==
+eyJoaXN0b3J5IjpbMTkzMzU2ODAyOSwxNjA0MDMxNzgxLC03Nj
+Q0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2NTEsLTIwNzM3MTE3
+MV19
 -->
