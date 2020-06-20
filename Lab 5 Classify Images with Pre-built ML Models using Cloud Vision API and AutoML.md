@@ -25,14 +25,17 @@ We have three diferent folders where the images are kept and we have an excel wh
 `sed -i -e "s/placeholder/${BUCKET}/g" ./data.csv`
 `gsutil cp ./data.csv gs://${BUCKET}`
 
-So our image i
+So our image files and the `data.csv` 	is ready. This is all AutoML requires.
+
+**Train - Auto ML **
+Create a **Single-Label Classification** 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM0MjAxOTEsMTYwNDAzMTc4MSwtNz
-Y0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzEx
-NzFdfQ==
+eyJoaXN0b3J5IjpbNjQwNDMxMTg0LDE2MDQwMzE3ODEsLTc2ND
+Q4NzMxNCw4MDkzNjI5MiwtMTQ2NzA4NjY1MSwtMjA3MzcxMTcx
+XX0=
 -->
