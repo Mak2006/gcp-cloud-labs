@@ -35,6 +35,9 @@ This template stages a streaming pipeline that reads JSON-formatted messages  fr
 All the configurations 
 ![](https://i.imgur.com/5hoLxj4.png)
 
+Job started 
+![](https://i.imgur.com/fnMzXwo.png)
+
 **Analyse using Bq**
 `SELECT * FROM taxirides.realtime LIMIT 10` sample the data
 
@@ -87,7 +90,7 @@ Open DataStudion
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDE5NjM0OSwtNTIzMTE1NTY3LC0xMT
+eyJoaXN0b3J5IjpbLTM5NzEyMzEwNywtNTIzMTE1NTY3LC0xMT
 E0OTkyODc4LC0xNzg0MjQxMDYyLC0xNDk2NTE5MzE4LC05OTY5
 ODM1NTUsLTE1MDcxNzU0MDksMTg1NTcxMDQ3MSw0NTk2NzYwNT
 IsMTI3MTMzMjI1M119
