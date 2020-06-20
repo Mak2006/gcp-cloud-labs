@@ -44,6 +44,9 @@ Job details
 **Analyse using Bq**
 `SELECT * FROM taxirides.realtime LIMIT 10` sample the data
 
+![](https://i.imgur.com/JZ9N1rP.png)
+
+
 Play
 ```
 
@@ -78,6 +81,8 @@ SELECT
 FROM streaming_data
 GROUP BY minute, timestamp
 ```
+ ![Result](https://i.imgur.com/TShTKEK.png)
+
 
 
 **Create dashboard**
@@ -93,8 +98,8 @@ Open DataStudion
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0MDU4MTQxLDQ2OTI0MTc5OSwtMzk3MT
-IzMTA3LC01MjMxMTU1NjcsLTExMTQ5OTI4NzgsLTE3ODQyNDEw
-NjIsLTE0OTY1MTkzMTgsLTk5Njk4MzU1NSwtMTUwNzE3NTQwOS
-wxODU1NzEwNDcxLDQ1OTY3NjA1MiwxMjcxMzMyMjUzXX0=
+eyJoaXN0b3J5IjpbMTM2Njc0MjI4OCw0NjkyNDE3OTksLTM5Nz
+EyMzEwNywtNTIzMTE1NTY3LC0xMTE0OTkyODc4LC0xNzg0MjQx
+MDYyLC0xNDk2NTE5MzE4LC05OTY5ODM1NTUsLTE1MDcxNzU0MD
+ksMTg1NTcxMDQ3MSw0NTk2NzYwNTIsMTI3MTMzMjI1M119
 -->
