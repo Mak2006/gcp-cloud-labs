@@ -17,7 +17,18 @@ In this lab we do the following
 	1. Enable Pub Sub API, Dataflow API
 	2. SDF
 	3. 
+
+**Prepare Bigquery to receive data**
+`bq mk taxirides` # create a data set
+
+```
+bq mk \
+--time_partitioning_field timestamp \
+--schema ride_id:string,point_idx:integer,latitude:float,longitude:float,\
+timestamp:timestamp,meter_reading:float,meter_increment:float,ride_status:string,\
+passenger_count:integer -t taxirides.realtime
+```  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDcxNzU0MDksMTg1NTcxMDQ3MSw0NT
-k2NzYwNTIsMTI3MTMzMjI1M119
+eyJoaXN0b3J5IjpbLTc0Nzk5NjgxLC0xNTA3MTc1NDA5LDE4NT
+U3MTA0NzEsNDU5Njc2MDUyLDEyNzEzMzIyNTNdfQ==
 -->
