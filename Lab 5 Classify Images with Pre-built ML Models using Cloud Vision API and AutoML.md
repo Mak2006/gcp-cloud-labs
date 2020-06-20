@@ -16,13 +16,17 @@ This can be done a command or from dashboard.
 **Copy the data to a bucket**
 `gsutil mb gs://{projid}}`
 
+**Data set**
+We require a labelled data set, showing the different clouds. This is available at  - `gsutil -m cp -r gs://automl-codelab-clouds/* {{bucket}}`
 
+**Arrangement of the data set**
+We have thre diferent folders, the fo
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5MjUwMDg4LC03NjQ0ODczMTQsODA5Mz
+eyJoaXN0b3J5IjpbNDQ0NTg5OTEzLC03NjQ0ODczMTQsODA5Mz
 YyOTIsLTE0NjcwODY2NTEsLTIwNzM3MTE3MV19
 -->
