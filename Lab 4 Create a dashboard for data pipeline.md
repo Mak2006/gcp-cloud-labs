@@ -36,7 +36,7 @@ All the configurations
 ![](https://i.imgur.com/5hoLxj4.png)
 
 Job started 
-![](https://i.imgur.com/fnMzXwo.png)
+![](https://i.imgur.com/gofbDDu.png)
 
 **Analyse using Bq**
 `SELECT * FROM taxirides.realtime LIMIT 10` sample the data
@@ -90,8 +90,8 @@ Open DataStudion
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzEyMzEwNywtNTIzMTE1NTY3LC0xMT
-E0OTkyODc4LC0xNzg0MjQxMDYyLC0xNDk2NTE5MzE4LC05OTY5
-ODM1NTUsLTE1MDcxNzU0MDksMTg1NTcxMDQ3MSw0NTk2NzYwNT
-IsMTI3MTMzMjI1M119
+eyJoaXN0b3J5IjpbNDY5MjQxNzk5LC0zOTcxMjMxMDcsLTUyMz
+ExNTU2NywtMTExNDk5Mjg3OCwtMTc4NDI0MTA2MiwtMTQ5NjUx
+OTMxOCwtOTk2OTgzNTU1LC0xNTA3MTc1NDA5LDE4NTU3MTA0Nz
+EsNDU5Njc2MDUyLDEyNzEzMzIyNTNdfQ==
 -->
