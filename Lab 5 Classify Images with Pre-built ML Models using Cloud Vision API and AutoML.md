@@ -36,12 +36,13 @@ This is a test data set,  having small number of images. The images is divided i
 **Train has a cost**
 And Google gives a free tier for small training exercercises. This takes around 1 - 1.5 hours. 
 
+**Evaluate the model **
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjkwMjgzMiwxNjA0MDMxNzgxLC03Nj
-Q0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2NTEsLTIwNzM3MTE3
-MV19
+eyJoaXN0b3J5IjpbMjI4MzQ4MDg1LDE2MDQwMzE3ODEsLTc2ND
+Q4NzMxNCw4MDkzNjI5MiwtMTQ2NzA4NjY1MSwtMjA3MzcxMTcx
+XX0=
 -->
