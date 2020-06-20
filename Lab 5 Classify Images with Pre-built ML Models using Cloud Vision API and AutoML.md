@@ -43,11 +43,11 @@ Here we see the **Precision, Recall, Accuracy , Confusion matrix, Confidence thr
 
 
 **Generate Predictions**
-Now we are at our last part of the work. We feed the model an image and let it find the type.  **Test and Use** is used to upload the image and we check the result
+Now we are at our last part of the work. We feed the model an image and let it find the type.  **Test and Use** is used to upload the image and we check the results. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODMxMjkyNDksMjI4MzQ4MDg1LDE2MD
-QwMzE3ODEsLTc2NDQ4NzMxNCw4MDkzNjI5MiwtMTQ2NzA4NjY1
-MSwtMjA3MzcxMTcxXX0=
+eyJoaXN0b3J5IjpbMTgxOTMxOTg0NCwyMjgzNDgwODUsMTYwND
+AzMTc4MSwtNzY0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2NjUx
+LC0yMDczNzExNzFdfQ==
 -->
