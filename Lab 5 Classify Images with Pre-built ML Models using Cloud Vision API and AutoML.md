@@ -38,12 +38,16 @@ And Google gives a free tier for small training exercercises. This takes around 
 
 **Evaluate the model **
 Here we see the **Precision, Recall, Accuracy , Confusion matrix, Confidence threshold etc.**
-Smap
 
+**Sample confusion matrix** ![](https://i.imgur.com/h1tinYL.png)
+
+
+**Generate Predictions**
+Now we are at our last part of the work. We feed the model an image and let it find the type.  **Test and Use** is used to upload the image and we check the result
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzkyMDY0MCwyMjgzNDgwODUsMTYwND
-AzMTc4MSwtNzY0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2NjUx
-LC0yMDczNzExNzFdfQ==
+eyJoaXN0b3J5IjpbLTEyODMxMjkyNDksMjI4MzQ4MDg1LDE2MD
+QwMzE3ODEsLTc2NDQ4NzMxNCw4MDkzNjI5MiwtMTQ2NzA4NjY1
+MSwtMjA3MzcxMTcxXX0=
 -->
