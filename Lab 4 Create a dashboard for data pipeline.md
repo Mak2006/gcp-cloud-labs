@@ -3,7 +3,8 @@
 ### Business Requirment 
 In this lab, you own a fleet of New York City taxi cabs and are looking to monitor how well your business is doing in real-time. You will build a streaming data pipeline to capture taxi revenue, passenger count, ride status, and much more and visualize the results in a management dashboard. 
 **Algo** 
-	- Set up Bigquery, Cloud Storage, Dataflow pipeline
+	-  Set up Bigquery tables, Cloud Storage bucket to be used by Dataflow, 
+	-  Set up a Cloud Dataflow Pipeline
 	-   Connect to a streaming data Topic in Cloud Pub/sub
 	-   Ingest streaming data with Cloud Dataflow
 	-   Load streaming data into BigQuery
@@ -33,6 +34,7 @@ timestamp:timestamp,meter_reading:float,meter_increment:float,ride_status:string
 passenger_count:integer -t taxirides.realtime
 ```  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Njk4MzU1NSwtMTUwNzE3NTQwOSwxOD
-U1NzEwNDcxLDQ1OTY3NjA1MiwxMjcxMzMyMjUzXX0=
+eyJoaXN0b3J5IjpbLTE0OTY1MTkzMTgsLTk5Njk4MzU1NSwtMT
+UwNzE3NTQwOSwxODU1NzEwNDcxLDQ1OTY3NjA1MiwxMjcxMzMy
+MjUzXX0=
 -->
