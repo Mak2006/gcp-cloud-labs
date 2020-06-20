@@ -36,9 +36,42 @@ Create job, using template PS to Bq,  topic is `projects/pubsub-public-data/topi
 Play
 ```
 
+WITH streaming_data AS (
 
+SELECT
+  timestamp,
+  TIMESTAMP_TRUNC(timestamp, HOUR, 'UTC') AS hour,
+  TIMESTAMP_TRUNC(timestamp, MINUTE, 'UTC') AS minute,
+  TIMESTAMP_TRUNC(timestamp, SECOND, 'UTC') AS second,
+  ride_id,
+  latitude,
+  longitude,
+  meter_reading,
+  ride_status,
+  passenger_count
+FROM
+  taxirides.realtime
+WHERE ride_status = 'dropoff'
+ORDER BY timestamp DESC
+LIMIT 100000
+
+)
+
+# calculate aggregations on stream for reporting:
+SELECT
+ ROW_NUMBER() OVER() AS dashboard_sort,
+ minute,
+ COUNT(DISTINCT ride_id) AS total_rides,
+ SUM(meter_reading) AS total_revenue,
+ SUM(passenger_count) AS total_passengers
+FROM streaming_data
+GROUP BY minute, timestamp
+```
+
+
+**Create dashboard**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwNzU1MjgwLC0xNDk2NTE5MzE4LC05OT
-Y5ODM1NTUsLTE1MDcxNzU0MDksMTg1NTcxMDQ3MSw0NTk2NzYw
-NTIsMTI3MTMzMjI1M119
+eyJoaXN0b3J5IjpbLTE3ODQyNDEwNjIsLTE0OTY1MTkzMTgsLT
+k5Njk4MzU1NSwtMTUwNzE3NTQwOSwxODU1NzEwNDcxLDQ1OTY3
+NjA1MiwxMjcxMzMyMjUzXX0=
 -->
