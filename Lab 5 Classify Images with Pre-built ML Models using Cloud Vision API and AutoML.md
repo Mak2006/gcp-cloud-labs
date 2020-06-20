@@ -20,14 +20,19 @@ This can be done a command or from dashboard.
 We require a labelled data set, showing the different clouds. This is available at  - `gsutil -m cp -r gs://automl-codelab-clouds/* {{bucket}}`
 
 **Labelling the data set**
-We have three diferent folders where the images are kept and the folder names serves as the labels.
+We have three diferent folders where the images are kept and we have an excel where all the files are present and the file has another column which has the label. However the file does not have the bucket name, and hence we have to alter the csv. 
+`gsutil cp gs://automl-codelab-metadata/data.csv .`
+`sed -i -e "s/placeholder/${BUCKET}/g" ./data.csv`
+`gsutil cp ./data.csv gs://${BUCKET}`
+
+So our image i
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDAwNTA1OSwxNjA0MDMxNzgxLC03Nj
-Q0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2NTEsLTIwNzM3MTE3
-MV19
+eyJoaXN0b3J5IjpbLTE5NTM0MjAxOTEsMTYwNDAzMTc4MSwtNz
+Y0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzEx
+NzFdfQ==
 -->
