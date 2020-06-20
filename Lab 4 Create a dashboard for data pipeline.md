@@ -14,8 +14,8 @@ In this lab we do the following
 2. Topic creation 
 
 **Prereqs** 
-1. 
+1.  Enable Pub Sub API , Dataflow API
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTEzMzcxMTYsMTg1NTcxMDQ3MSw0NT
-k2NzYwNTIsMTI3MTMzMjI1M119
+eyJoaXN0b3J5IjpbNjY4OTc5NDgwLDE4NTU3MTA0NzEsNDU5Nj
+c2MDUyLDEyNzEzMzIyNTNdfQ==
 -->
