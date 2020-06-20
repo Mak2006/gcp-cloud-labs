@@ -37,12 +37,13 @@ This is a test data set,  having small number of images. The images is divided i
 And Google gives a free tier for small training exercercises. This takes around 1 - 1.5 hours. 
 
 **Evaluate the model **
-Herer 
+Here we see the **Precision, Recall, Accuracy , Confusion matrix, Confidence threshold etc.**
+Smap
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzI0MzU3NSwyMjgzNDgwODUsMTYwND
+eyJoaXN0b3J5IjpbLTIyNzkyMDY0MCwyMjgzNDgwODUsMTYwND
 AzMTc4MSwtNzY0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2NjUx
 LC0yMDczNzExNzFdfQ==
 -->
