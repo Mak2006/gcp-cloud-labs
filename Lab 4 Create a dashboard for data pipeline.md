@@ -25,9 +25,11 @@ bq mk \
 timestamp:timestamp,meter_reading:float,meter_increment:float,ride_status:string,\
 passenger_count:integer -t taxirides.realtime
 ```  
-
+**Set up Dataflow pipeline**
+Basically connects the pubsub to Bigquery. 
+Create job, using template PS to Bq,  topic is `projects/pubsub-public-data/topics/taxirides-realtime`  Bigquery table is `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDg4MzE2MywtMTQ5NjUxOTMxOCwtOT
-k2OTgzNTU1LC0xNTA3MTc1NDA5LDE4NTU3MTA0NzEsNDU5Njc2
-MDUyLDEyNzEzMzIyNTNdfQ==
+eyJoaXN0b3J5IjpbLTE3OTA4NzQwNDksLTE0OTY1MTkzMTgsLT
+k5Njk4MzU1NSwtMTUwNzE3NTQwOSwxODU1NzEwNDcxLDQ1OTY3
+NjA1MiwxMjcxMzMyMjUzXX0=
 -->
