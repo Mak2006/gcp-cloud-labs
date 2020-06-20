@@ -9,9 +9,6 @@ Functional - In this lab you will upload images to Cloud Storage and use them to
 This is the algo we follow.
 
 
- 
-
-
 Quite a big lab!! undestandable duet to AutoML init
 ![Whoops](https://i.imgur.com/qP8vnP6.png)
 
@@ -19,6 +16,6 @@ Quite a big lab!! undestandable duet to AutoML init
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDQ4NzMxNCw4MDkzNjI5MiwtMTQ2Nz
-A4NjY1MSwtMjA3MzcxMTcxXX0=
+eyJoaXN0b3J5IjpbLTEwNjM5MDgyNiwtNzY0NDg3MzE0LDgwOT
+M2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzExNzFdfQ==
 -->
