@@ -51,7 +51,7 @@ Now we are at our last part of the work. We feed the model an image and let it f
 Enable -
 ![](https://i.imgur.com/hk1ZyyH.png)
 Bucket created
-Invoke shell, copy the images files
+Invoke shell, copied image files
 ![]()
 ![]()
 ![]()
@@ -72,7 +72,8 @@ Invoke shell, copy the images files
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTc1ODg3NywyNTcxNDI3MzYsMTgxOT
-MxOTg0NCwyMjgzNDgwODUsMTYwNDAzMTc4MSwtNzY0NDg3MzE0
-LDgwOTM2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzExNzFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDgxNTkzODYsMTEyNTc1ODg3NywyNT
+cxNDI3MzYsMTgxOTMxOTg0NCwyMjgzNDgwODUsMTYwNDAzMTc4
+MSwtNzY0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2NjUxLC0yMD
+czNzExNzFdfQ==
 -->
