@@ -74,7 +74,7 @@ Next it seems going to the "Images" tab imports the images
 ![](https://i.imgur.com/iApwNa1.png)
 
 We ran into issues as the bucket was created in another region, hence we create a bucket in the us-central region and transfer the files.
-
+`gsutil cp -r gs://qwiklabs-gcp-03-76e67ede2d2c/* gs://mb_qwiklabs-gcp-03-76e67ede2d2c/`
 
 ![]()
 ![]()
@@ -90,9 +90,9 @@ We ran into issues as the bucket was created in another region, hence we create 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDE3ODU0MSw3NzQ5ODI3NTYsMTM3Nz
-YxMDI1NiwtNjcwNjU5NjgwLC0xOTEyNDQwNjIzLDEwOTQxODcx
-ODcsMTEyNTc1ODg3NywyNTcxNDI3MzYsMTgxOTMxOTg0NCwyMj
-gzNDgwODUsMTYwNDAzMTc4MSwtNzY0NDg3MzE0LDgwOTM2Mjky
-LC0xNDY3MDg2NjUxLC0yMDczNzExNzFdfQ==
+eyJoaXN0b3J5IjpbODQ2MjYxMjksNzc0OTgyNzU2LDEzNzc2MT
+AyNTYsLTY3MDY1OTY4MCwtMTkxMjQ0MDYyMywxMDk0MTg3MTg3
+LDExMjU3NTg4NzcsMjU3MTQyNzM2LDE4MTkzMTk4NDQsMjI4Mz
+Q4MDg1LDE2MDQwMzE3ODEsLTc2NDQ4NzMxNCw4MDkzNjI5Miwt
+MTQ2NzA4NjY1MSwtMjA3MzcxMTcxXX0=
 -->
