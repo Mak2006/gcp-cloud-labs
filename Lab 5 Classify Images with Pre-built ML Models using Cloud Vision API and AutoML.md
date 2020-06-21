@@ -98,8 +98,11 @@ Training commences, it is 9.04 and about 1.46 left on the lab clock
 
 We evalate
 
-![]()
-![]()
+![](https://i.imgur.com/DiZ0bpb.png)
+
+Saved the confusion matrix
+
+![](https://drive.google.com/file/d/1WG1Wp-MMtLBgBpbDEdUvZbZscYebENiB/view?usp=sharing)
 ![]()
 ![]()
 ![]()
@@ -107,7 +110,7 @@ We evalate
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTQwNTQ5NiwtMTYxNTc5NzAyOCwtMj
+eyJoaXN0b3J5IjpbMTUzMTc1ODI1NiwtMTYxNTc5NzAyOCwtMj
 AwMDQxNzY5MiwxMzQ1MDk2ODQ5LDE1ODQ0MzQyMjYsODQ2MjYx
 MjksNzc0OTgyNzU2LDEzNzc2MTAyNTYsLTY3MDY1OTY4MCwtMT
 kxMjQ0MDYyMywxMDk0MTg3MTg3LDExMjU3NTg4NzcsMjU3MTQy
