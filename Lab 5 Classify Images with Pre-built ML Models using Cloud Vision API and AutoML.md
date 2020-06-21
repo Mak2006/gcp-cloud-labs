@@ -85,7 +85,11 @@ Finally it completed
 
 It automatically selected the split for train and test
 ![](https://i.imgur.com/oByHMEe.png)
-![]()
+
+Train setting
+![](https://i.imgur.com/j8pgbkb.png)
+
+
 ![]()
 ![]()
 ![]()
@@ -97,10 +101,10 @@ It automatically selected the split for train and test
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDc0MDk4MywxMzQ1MDk2ODQ5LDE1OD
-Q0MzQyMjYsODQ2MjYxMjksNzc0OTgyNzU2LDEzNzc2MTAyNTYs
-LTY3MDY1OTY4MCwtMTkxMjQ0MDYyMywxMDk0MTg3MTg3LDExMj
-U3NTg4NzcsMjU3MTQyNzM2LDE4MTkzMTk4NDQsMjI4MzQ4MDg1
-LDE2MDQwMzE3ODEsLTc2NDQ4NzMxNCw4MDkzNjI5MiwtMTQ2Nz
-A4NjY1MSwtMjA3MzcxMTcxXX0=
+eyJoaXN0b3J5IjpbMzE3MTQsMTM0NTA5Njg0OSwxNTg0NDM0Mj
+I2LDg0NjI2MTI5LDc3NDk4Mjc1NiwxMzc3NjEwMjU2LC02NzA2
+NTk2ODAsLTE5MTI0NDA2MjMsMTA5NDE4NzE4NywxMTI1NzU4OD
+c3LDI1NzE0MjczNiwxODE5MzE5ODQ0LDIyODM0ODA4NSwxNjA0
+MDMxNzgxLC03NjQ0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2NT
+EsLTIwNzM3MTE3MV19
 -->
