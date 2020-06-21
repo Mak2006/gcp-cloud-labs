@@ -150,7 +150,7 @@ Using REST API
 Use your custom model
 You can now run predictions on images using your custom vision model. You will need a service account.
 
-the request.json
+The request.json
 `{
   "payload": {
     "image": {
@@ -168,7 +168,7 @@ curl -X POST -H "Content-Type: application/json" \
   -d @request.json`
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDM1NzIzOCwxMDg5NTA4NzA5LC0xNj
+eyJoaXN0b3J5IjpbLTQyMTYwNTA5OCwxMDg5NTA4NzA5LC0xNj
 E1Nzk3MDI4LC0yMDAwNDE3NjkyLDEzNDUwOTY4NDksMTU4NDQz
 NDIyNiw4NDYyNjEyOSw3NzQ5ODI3NTYsMTM3NzYxMDI1NiwtNj
 cwNjU5NjgwLC0xOTEyNDQwNjIzLDEwOTQxODcxODcsMTEyNTc1
