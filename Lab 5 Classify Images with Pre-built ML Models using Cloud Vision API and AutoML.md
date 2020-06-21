@@ -60,8 +60,8 @@ Adopting a label file
 ![](https://i.imgur.com/3cQ3dbJ.png)
 
 So we have to replace the placeholder, we do this using vi
-
-![]()
+:
+![](https://i.imgur.com/A7QzYe4.png)
 ![]()
 ![]()
 ![]()
@@ -79,8 +79,8 @@ So we have to replace the placeholder, we do this using vi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI0NDA2MjMsMTA5NDE4NzE4NywxMT
-I1NzU4ODc3LDI1NzE0MjczNiwxODE5MzE5ODQ0LDIyODM0ODA4
-NSwxNjA0MDMxNzgxLC03NjQ0ODczMTQsODA5MzYyOTIsLTE0Nj
-cwODY2NTEsLTIwNzM3MTE3MV19
+eyJoaXN0b3J5IjpbLTk4MTgyMjk3OSwtMTkxMjQ0MDYyMywxMD
+k0MTg3MTg3LDExMjU3NTg4NzcsMjU3MTQyNzM2LDE4MTkzMTk4
+NDQsMjI4MzQ4MDg1LDE2MDQwMzE3ODEsLTc2NDQ4NzMxNCw4MD
+kzNjI5MiwtMTQ2NzA4NjY1MSwtMjA3MzcxMTcxXX0=
 -->
