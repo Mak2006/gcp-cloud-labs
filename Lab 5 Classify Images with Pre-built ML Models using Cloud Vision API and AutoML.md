@@ -109,17 +109,48 @@ Saved the confusion matrix
 Adjusted the confidence threshold to 0.82
 ![](https://i.imgur.com/DrdkPpN.png)
 
-Generate Predictions
-![]()
+Generate Predictions, uploaded the images
+![](https://i.imgur.com/e4CA30y.png)
+
+Using python to obtain the results
+```
+import sys
+
+from google.cloud import automl_v1beta1
+from google.cloud.automl_v1beta1.proto import service_pb2
+
+
+# 'content' is base-64-encoded image data.
+def get_prediction(content, project_id, model_id):
+  prediction_client = automl_v1beta1.PredictionServiceClient()
+
+  name = 'projects/{}/locations/us-central1/models/{}'.format(project_id, model_id)
+  payload = {'image': {'image_bytes': content }}
+  params = {}
+  request = prediction_client.predict(name, payload, params)
+  return request  # waits till request is returned
+
+if __name__ == '__main__':
+  file_path = sys.argv[1]
+  project_id = sys.argv[2]
+  model_id = sys.argv[3]
+
+  with open(file_path, 'rb') as ff:
+    content = ff.read()
+
+  print get_prediction(content, project_id, model_id)
+```
+
+`
 ![]()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTUwODcwOSwtMTYxNTc5NzAyOCwtMj
-AwMDQxNzY5MiwxMzQ1MDk2ODQ5LDE1ODQ0MzQyMjYsODQ2MjYx
-MjksNzc0OTgyNzU2LDEzNzc2MTAyNTYsLTY3MDY1OTY4MCwtMT
-kxMjQ0MDYyMywxMDk0MTg3MTg3LDExMjU3NTg4NzcsMjU3MTQy
-NzM2LDE4MTkzMTk4NDQsMjI4MzQ4MDg1LDE2MDQwMzE3ODEsLT
-c2NDQ4NzMxNCw4MDkzNjI5MiwtMTQ2NzA4NjY1MSwtMjA3Mzcx
-MTcxXX0=
+eyJoaXN0b3J5IjpbMTMzMzg0MzE4OSwxMDg5NTA4NzA5LC0xNj
+E1Nzk3MDI4LC0yMDAwNDE3NjkyLDEzNDUwOTY4NDksMTU4NDQz
+NDIyNiw4NDYyNjEyOSw3NzQ5ODI3NTYsMTM3NzYxMDI1NiwtNj
+cwNjU5NjgwLC0xOTEyNDQwNjIzLDEwOTQxODcxODcsMTEyNTc1
+ODg3NywyNTcxNDI3MzYsMTgxOTMxOTg0NCwyMjgzNDgwODUsMT
+YwNDAzMTc4MSwtNzY0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2
+NjUxXX0=
 -->
