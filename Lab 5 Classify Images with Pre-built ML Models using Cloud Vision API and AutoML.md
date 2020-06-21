@@ -147,7 +147,6 @@ We execute the request with
 
 Using REST API
 
-Use your custom model
 You can now run predictions on images using your custom vision model. You will need a service account.
 
 The request.json
@@ -168,11 +167,11 @@ curl -X POST -H "Content-Type: application/json" \
   -d @request.json`
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTYwNTA5OCwxMDg5NTA4NzA5LC0xNj
-E1Nzk3MDI4LC0yMDAwNDE3NjkyLDEzNDUwOTY4NDksMTU4NDQz
-NDIyNiw4NDYyNjEyOSw3NzQ5ODI3NTYsMTM3NzYxMDI1NiwtNj
-cwNjU5NjgwLC0xOTEyNDQwNjIzLDEwOTQxODcxODcsMTEyNTc1
-ODg3NywyNTcxNDI3MzYsMTgxOTMxOTg0NCwyMjgzNDgwODUsMT
-YwNDAzMTc4MSwtNzY0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2
-NjUxXX0=
+eyJoaXN0b3J5IjpbNjIwNzczMjEwLC00MjE2MDUwOTgsMTA4OT
+UwODcwOSwtMTYxNTc5NzAyOCwtMjAwMDQxNzY5MiwxMzQ1MDk2
+ODQ5LDE1ODQ0MzQyMjYsODQ2MjYxMjksNzc0OTgyNzU2LDEzNz
+c2MTAyNTYsLTY3MDY1OTY4MCwtMTkxMjQ0MDYyMywxMDk0MTg3
+MTg3LDExMjU3NTg4NzcsMjU3MTQyNzM2LDE4MTkzMTk4NDQsMj
+I4MzQ4MDg1LDE2MDQwMzE3ODEsLTc2NDQ4NzMxNCw4MDkzNjI5
+Ml19
 -->
