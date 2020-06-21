@@ -57,7 +57,10 @@ Invoke shell, copied image files
 ![](https://i.imgur.com/hVrrdzl.png)
 
 Adopting a label file
-![]()
+![](https://i.imgur.com/3cQ3dbJ.png)
+
+So we have to replace the placeholder, we do this using vi
+
 ![]()
 ![]()
 ![]()
@@ -76,8 +79,8 @@ Adopting a label file
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDE4NzE4NywxMTI1NzU4ODc3LDI1Nz
-E0MjczNiwxODE5MzE5ODQ0LDIyODM0ODA4NSwxNjA0MDMxNzgx
-LC03NjQ0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2NTEsLTIwNz
-M3MTE3MV19
+eyJoaXN0b3J5IjpbLTE5MTI0NDA2MjMsMTA5NDE4NzE4NywxMT
+I1NzU4ODc3LDI1NzE0MjczNiwxODE5MzE5ODQ0LDIyODM0ODA4
+NSwxNjA0MDMxNzgxLC03NjQ0ODczMTQsODA5MzYyOTIsLTE0Nj
+cwODY2NTEsLTIwNzM3MTE3MV19
 -->
