@@ -70,8 +70,10 @@ Move this over to the bucket
 Next we go to Vision and create a dataset.  And give our data.csv file as the input set
 ![](https://i.imgur.com/boqgw5x.png)
 
-Next it seems going to the "Images" tab imports 
-![]()
+Next it seems going to the "Images" tab imports the images
+![](https://i.imgur.com/iApwNa1.png)
+
+
 ![]()
 ![]()
 ![]()
@@ -86,9 +88,9 @@ Next it seems going to the "Images" tab imports
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDk4ODU2NzcsMTM3NzYxMDI1NiwtNj
-cwNjU5NjgwLC0xOTEyNDQwNjIzLDEwOTQxODcxODcsMTEyNTc1
-ODg3NywyNTcxNDI3MzYsMTgxOTMxOTg0NCwyMjgzNDgwODUsMT
-YwNDAzMTc4MSwtNzY0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2
-NjUxLC0yMDczNzExNzFdfQ==
+eyJoaXN0b3J5IjpbNzc0OTgyNzU2LDEzNzc2MTAyNTYsLTY3MD
+Y1OTY4MCwtMTkxMjQ0MDYyMywxMDk0MTg3MTg3LDExMjU3NTg4
+NzcsMjU3MTQyNzM2LDE4MTkzMTk4NDQsMjI4MzQ4MDg1LDE2MD
+QwMzE3ODEsLTc2NDQ4NzMxNCw4MDkzNjI5MiwtMTQ2NzA4NjY1
+MSwtMjA3MzcxMTcxXX0=
 -->
