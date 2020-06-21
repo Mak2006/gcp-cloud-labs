@@ -95,6 +95,9 @@ Training commences, it is 9.04 and about 1.46 left on the lab clock
  9.27 still training
  10.06 completed
 ![](https://i.imgur.com/n9jC36v.png)
+
+We evalate
+
 ![]()
 ![]()
 ![]()
@@ -104,11 +107,11 @@ Training commences, it is 9.04 and about 1.46 left on the lab clock
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4MTAyOTE0LC0xNjE1Nzk3MDI4LC0yMD
-AwNDE3NjkyLDEzNDUwOTY4NDksMTU4NDQzNDIyNiw4NDYyNjEy
-OSw3NzQ5ODI3NTYsMTM3NzYxMDI1NiwtNjcwNjU5NjgwLC0xOT
-EyNDQwNjIzLDEwOTQxODcxODcsMTEyNTc1ODg3NywyNTcxNDI3
-MzYsMTgxOTMxOTg0NCwyMjgzNDgwODUsMTYwNDAzMTc4MSwtNz
-Y0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzEx
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTQ2MTQwNTQ5NiwtMTYxNTc5NzAyOCwtMj
+AwMDQxNzY5MiwxMzQ1MDk2ODQ5LDE1ODQ0MzQyMjYsODQ2MjYx
+MjksNzc0OTgyNzU2LDEzNzc2MTAyNTYsLTY3MDY1OTY4MCwtMT
+kxMjQ0MDYyMywxMDk0MTg3MTg3LDExMjU3NTg4NzcsMjU3MTQy
+NzM2LDE4MTkzMTk4NDQsMjI4MzQ4MDg1LDE2MDQwMzE3ODEsLT
+c2NDQ4NzMxNCw4MDkzNjI5MiwtMTQ2NzA4NjY1MSwtMjA3Mzcx
+MTcxXX0=
 -->
