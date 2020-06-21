@@ -73,6 +73,7 @@ Next we go to Vision and create a dataset.  And give our data.csv file as the in
 Next it seems going to the "Images" tab imports the images
 ![](https://i.imgur.com/iApwNa1.png)
 
+We ran into issues as the bucke
 
 ![]()
 ![]()
@@ -88,9 +89,9 @@ Next it seems going to the "Images" tab imports the images
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0OTgyNzU2LDEzNzc2MTAyNTYsLTY3MD
-Y1OTY4MCwtMTkxMjQ0MDYyMywxMDk0MTg3MTg3LDExMjU3NTg4
-NzcsMjU3MTQyNzM2LDE4MTkzMTk4NDQsMjI4MzQ4MDg1LDE2MD
-QwMzE3ODEsLTc2NDQ4NzMxNCw4MDkzNjI5MiwtMTQ2NzA4NjY1
-MSwtMjA3MzcxMTcxXX0=
+eyJoaXN0b3J5IjpbNzc3Nzk2Mzc2LDc3NDk4Mjc1NiwxMzc3Nj
+EwMjU2LC02NzA2NTk2ODAsLTE5MTI0NDA2MjMsMTA5NDE4NzE4
+NywxMTI1NzU4ODc3LDI1NzE0MjczNiwxODE5MzE5ODQ0LDIyOD
+M0ODA4NSwxNjA0MDMxNzgxLC03NjQ0ODczMTQsODA5MzYyOTIs
+LTE0NjcwODY2NTEsLTIwNzM3MTE3MV19
 -->
