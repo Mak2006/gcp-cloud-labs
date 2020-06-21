@@ -50,7 +50,8 @@ Now we are at our last part of the work. We feed the model an image and let it f
 ### Results
 Enable -
 ![](https://i.imgur.com/hk1ZyyH.png)
-
+Bucket created
+Invoke shell, copy the images files
 ![]()
 ![]()
 ![]()
@@ -71,7 +72,7 @@ Enable -
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3MTQyNzM2LDE4MTkzMTk4NDQsMjI4Mz
-Q4MDg1LDE2MDQwMzE3ODEsLTc2NDQ4NzMxNCw4MDkzNjI5Miwt
-MTQ2NzA4NjY1MSwtMjA3MzcxMTcxXX0=
+eyJoaXN0b3J5IjpbMTEyNTc1ODg3NywyNTcxNDI3MzYsMTgxOT
+MxOTg0NCwyMjgzNDgwODUsMTYwNDAzMTc4MSwtNzY0NDg3MzE0
+LDgwOTM2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzExNzFdfQ==
 -->
