@@ -67,7 +67,7 @@ Move this over to the bucket
 ![](https://i.imgur.com/YG7avDL.png)
 
  We cheked the bucket the file is now  there.
-Next we go to V
+Next we go to Vision and create a dataset. 
 ![]()
 ![]()
 ![]()
@@ -84,7 +84,7 @@ Next we go to V
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODIyMzc1MCwxMzc3NjEwMjU2LC02Nz
+eyJoaXN0b3J5IjpbMTU4OTg1NDAwOCwxMzc3NjEwMjU2LC02Nz
 A2NTk2ODAsLTE5MTI0NDA2MjMsMTA5NDE4NzE4NywxMTI1NzU4
 ODc3LDI1NzE0MjczNiwxODE5MzE5ODQ0LDIyODM0ODA4NSwxNj
 A0MDMxNzgxLC03NjQ0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2
