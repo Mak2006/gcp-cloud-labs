@@ -60,9 +60,11 @@ Adopting a label file
 ![](https://i.imgur.com/3cQ3dbJ.png)
 
 So we have to replace the placeholder, we do this using vi
-:
+`:%s/placeholder/buckname`
 ![](https://i.imgur.com/A7QzYe4.png)
-![]()
+
+Move this over to the bucket
+![](https://i.imgur.com/YG7avDL.png)
 ![]()
 ![]()
 ![]()
@@ -79,8 +81,8 @@ So we have to replace the placeholder, we do this using vi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTgyMjk3OSwtMTkxMjQ0MDYyMywxMD
-k0MTg3MTg3LDExMjU3NTg4NzcsMjU3MTQyNzM2LDE4MTkzMTk4
-NDQsMjI4MzQ4MDg1LDE2MDQwMzE3ODEsLTc2NDQ4NzMxNCw4MD
-kzNjI5MiwtMTQ2NzA4NjY1MSwtMjA3MzcxMTcxXX0=
+eyJoaXN0b3J5IjpbNjQwNjMxNzU2LC0xOTEyNDQwNjIzLDEwOT
+QxODcxODcsMTEyNTc1ODg3NywyNTcxNDI3MzYsMTgxOTMxOTg0
+NCwyMjgzNDgwODUsMTYwNDAzMTc4MSwtNzY0NDg3MzE0LDgwOT
+M2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzExNzFdfQ==
 -->
