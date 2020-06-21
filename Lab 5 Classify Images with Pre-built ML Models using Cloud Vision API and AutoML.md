@@ -66,7 +66,7 @@ So we have to replace the placeholder, we do this using vi
 Move this over to the bucket
 ![](https://i.imgur.com/YG7avDL.png)
 
- We checedk th bucket it is 
+ We checedk th bucket it  is
 ![]()
 ![]()
 ![]()
@@ -83,7 +83,7 @@ Move this over to the bucket
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzYxMTM5NiwtMTkxMjQ0MDYyMywxMD
+eyJoaXN0b3J5IjpbMTc3Njk5OTgzMiwtMTkxMjQ0MDYyMywxMD
 k0MTg3MTg3LDExMjU3NTg4NzcsMjU3MTQyNzM2LDE4MTkzMTk4
 NDQsMjI4MzQ4MDg1LDE2MDQwMzE3ODEsLTc2NDQ4NzMxNCw4MD
 kzNjI5MiwtMTQ2NzA4NjY1MSwtMjA3MzcxMTcxXX0=
