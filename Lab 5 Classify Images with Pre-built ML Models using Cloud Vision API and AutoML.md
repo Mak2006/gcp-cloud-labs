@@ -77,9 +77,14 @@ We ran into issues as the bucket was created in another region, hence we create 
 `gsutil cp -r gs://qwiklabs-gcp-03-76e67ede2d2c/* gs://mb_qwiklabs-gcp-03-76e67ede2d2c/`
 
 We cant rename the bucket hence we alter the data.csv.
-Encountering issues, the "running importing images" seems t o take ages
-![]()
-![]()
+Encountering issues, the "running importing images" seems t o take ages. 
+
+Finally it completed
+![](https://i.imgur.com/xYcfPaM.png)
+
+
+It automatically selected the split for train and test
+![](https://i.imgur.com/oByHMEe.png)
 ![]()
 ![]()
 ![]()
@@ -92,10 +97,10 @@ Encountering issues, the "running importing images" seems t o take ages
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTA5Njg0OSwxNTg0NDM0MjI2LDg0Nj
-I2MTI5LDc3NDk4Mjc1NiwxMzc3NjEwMjU2LC02NzA2NTk2ODAs
-LTE5MTI0NDA2MjMsMTA5NDE4NzE4NywxMTI1NzU4ODc3LDI1Nz
-E0MjczNiwxODE5MzE5ODQ0LDIyODM0ODA4NSwxNjA0MDMxNzgx
-LC03NjQ0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2NTEsLTIwNz
-M3MTE3MV19
+eyJoaXN0b3J5IjpbLTE1NDc0MDk4MywxMzQ1MDk2ODQ5LDE1OD
+Q0MzQyMjYsODQ2MjYxMjksNzc0OTgyNzU2LDEzNzc2MTAyNTYs
+LTY3MDY1OTY4MCwtMTkxMjQ0MDYyMywxMDk0MTg3MTg3LDExMj
+U3NTg4NzcsMjU3MTQyNzM2LDE4MTkzMTk4NDQsMjI4MzQ4MDg1
+LDE2MDQwMzE3ODEsLTc2NDQ4NzMxNCw4MDkzNjI5MiwtMTQ2Nz
+A4NjY1MSwtMjA3MzcxMTcxXX0=
 -->
