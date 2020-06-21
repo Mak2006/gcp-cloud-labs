@@ -92,7 +92,7 @@ Train setting
 Training commences, it is 9.04 and about 1.46 left on the lab clock
 ![](https://i.imgur.com/xiEGi9c.png)
 
- 9.27 still trainin
+ 9.27 still training
 ![]()
 ![]()
 ![]()
@@ -103,10 +103,10 @@ Training commences, it is 9.04 and about 1.46 left on the lab clock
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDUyMzM0NSwtMjAwMDQxNzY5MiwxMz
-Q1MDk2ODQ5LDE1ODQ0MzQyMjYsODQ2MjYxMjksNzc0OTgyNzU2
-LDEzNzc2MTAyNTYsLTY3MDY1OTY4MCwtMTkxMjQ0MDYyMywxMD
-k0MTg3MTg3LDExMjU3NTg4NzcsMjU3MTQyNzM2LDE4MTkzMTk4
-NDQsMjI4MzQ4MDg1LDE2MDQwMzE3ODEsLTc2NDQ4NzMxNCw4MD
-kzNjI5MiwtMTQ2NzA4NjY1MSwtMjA3MzcxMTcxXX0=
+eyJoaXN0b3J5IjpbLTE2MTU3OTcwMjgsLTIwMDA0MTc2OTIsMT
+M0NTA5Njg0OSwxNTg0NDM0MjI2LDg0NjI2MTI5LDc3NDk4Mjc1
+NiwxMzc3NjEwMjU2LC02NzA2NTk2ODAsLTE5MTI0NDA2MjMsMT
+A5NDE4NzE4NywxMTI1NzU4ODc3LDI1NzE0MjczNiwxODE5MzE5
+ODQ0LDIyODM0ODA4NSwxNjA0MDMxNzgxLC03NjQ0ODczMTQsOD
+A5MzYyOTIsLTE0NjcwODY2NTEsLTIwNzM3MTE3MV19
 -->
