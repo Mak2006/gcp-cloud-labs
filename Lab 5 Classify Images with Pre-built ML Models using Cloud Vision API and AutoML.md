@@ -89,8 +89,10 @@ It automatically selected the split for train and test
 Train setting
 ![](https://i.imgur.com/j8pgbkb.png)
 
+Training commences, it is 9.04 and about 1.46 left on the lab clock
+![](https://i.imgur.com/xiEGi9c.png)
 
-![]()
+
 ![]()
 ![]()
 ![]()
@@ -101,10 +103,10 @@ Train setting
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3MTQsMTM0NTA5Njg0OSwxNTg0NDM0Mj
-I2LDg0NjI2MTI5LDc3NDk4Mjc1NiwxMzc3NjEwMjU2LC02NzA2
-NTk2ODAsLTE5MTI0NDA2MjMsMTA5NDE4NzE4NywxMTI1NzU4OD
-c3LDI1NzE0MjczNiwxODE5MzE5ODQ0LDIyODM0ODA4NSwxNjA0
-MDMxNzgxLC03NjQ0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2NT
-EsLTIwNzM3MTE3MV19
+eyJoaXN0b3J5IjpbLTExMTM5NTQwNzYsMTM0NTA5Njg0OSwxNT
+g0NDM0MjI2LDg0NjI2MTI5LDc3NDk4Mjc1NiwxMzc3NjEwMjU2
+LC02NzA2NTk2ODAsLTE5MTI0NDA2MjMsMTA5NDE4NzE4NywxMT
+I1NzU4ODc3LDI1NzE0MjczNiwxODE5MzE5ODQ0LDIyODM0ODA4
+NSwxNjA0MDMxNzgxLC03NjQ0ODczMTQsODA5MzYyOTIsLTE0Nj
+cwODY2NTEsLTIwNzM3MTE3MV19
 -->
