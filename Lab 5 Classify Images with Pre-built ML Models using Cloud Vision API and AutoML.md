@@ -77,7 +77,7 @@ We ran into issues as the bucket was created in another region, hence we create 
 `gsutil cp -r gs://qwiklabs-gcp-03-76e67ede2d2c/* gs://mb_qwiklabs-gcp-03-76e67ede2d2c/`
 
 We cant rename the bucket hence we alter the data.csv.
-Encountering issues, the "running importing images" seemst o take ages
+Encountering issues, the "running importing images" seems t o take ages
 ![]()
 ![]()
 ![]()
@@ -92,7 +92,7 @@ Encountering issues, the "running importing images" seemst o take ages
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjgxMDE5NSwxNTg0NDM0MjI2LDg0Nj
+eyJoaXN0b3J5IjpbMTM0NTA5Njg0OSwxNTg0NDM0MjI2LDg0Nj
 I2MTI5LDc3NDk4Mjc1NiwxMzc3NjEwMjU2LC02NzA2NTk2ODAs
 LTE5MTI0NDA2MjMsMTA5NDE4NzE4NywxMTI1NzU4ODc3LDI1Nz
 E0MjczNiwxODE5MzE5ODQ0LDIyODM0ODA4NSwxNjA0MDMxNzgx
