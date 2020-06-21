@@ -140,13 +140,44 @@ if __name__ == '__main__':
 
   print get_prediction(content, project_id, model_id)
 ```
-
-`
+We execute the request with
+`python predict.py YOUR_LOCAL_IMAGE_FILE 627335553411 ICN5123198618878083072`
 ![]()
 
+
+Using REST API
+
+## Use your custom model
+
+You can now run predictions on images using your custom vision model. You will need a  [service account.](https://cloud.google.com/vision/automl/object-detection/docs/before-you-begin)
+
+### request.json
+
+{
+
+"payload": {
+
+"image": {
+
+"imageBytes": "YOUR_BASE64_ENCODED_IMAGE_BYTES"
+
+}
+
+}
+
+}
+
+### Execute the request
+
+$
+
+curl -X POST -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $(gcloud auth application-default print-access-token)" \
+  https://automl.googleapis.com/v1beta1/projects/627335553411/locations/us-central1/models/ICN5123198618878083072:predict \
+  -d @request.json
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzg0MzE4OSwxMDg5NTA4NzA5LC0xNj
+eyJoaXN0b3J5IjpbMTc1NDQ2NTA4NCwxMDg5NTA4NzA5LC0xNj
 E1Nzk3MDI4LC0yMDAwNDE3NjkyLDEzNDUwOTY4NDksMTU4NDQz
 NDIyNiw4NDYyNjEyOSw3NzQ5ODI3NTYsMTM3NzYxMDI1NiwtNj
 cwNjU5NjgwLC0xOTEyNDQwNjIzLDEwOTQxODcxODcsMTEyNTc1
