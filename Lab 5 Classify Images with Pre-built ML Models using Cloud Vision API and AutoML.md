@@ -76,7 +76,8 @@ Next it seems going to the "Images" tab imports the images
 We ran into issues as the bucket was created in another region, hence we create a bucket in the us-central region and transfer the files.
 `gsutil cp -r gs://qwiklabs-gcp-03-76e67ede2d2c/* gs://mb_qwiklabs-gcp-03-76e67ede2d2c/`
 
-We cant rename the bucket hence we alter the data.csv
+We cant rename the bucket hence we alter the data.csv.
+Encountering issues
 ![]()
 ![]()
 ![]()
@@ -91,9 +92,10 @@ We cant rename the bucket hence we alter the data.csv
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDQzNDIyNiw4NDYyNjEyOSw3NzQ5OD
-I3NTYsMTM3NzYxMDI1NiwtNjcwNjU5NjgwLC0xOTEyNDQwNjIz
-LDEwOTQxODcxODcsMTEyNTc1ODg3NywyNTcxNDI3MzYsMTgxOT
-MxOTg0NCwyMjgzNDgwODUsMTYwNDAzMTc4MSwtNzY0NDg3MzE0
-LDgwOTM2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzExNzFdfQ==
+eyJoaXN0b3J5IjpbLTE5MTM1NTY1MSwxNTg0NDM0MjI2LDg0Nj
+I2MTI5LDc3NDk4Mjc1NiwxMzc3NjEwMjU2LC02NzA2NTk2ODAs
+LTE5MTI0NDA2MjMsMTA5NDE4NzE4NywxMTI1NzU4ODc3LDI1Nz
+E0MjczNiwxODE5MzE5ODQ0LDIyODM0ODA4NSwxNjA0MDMxNzgx
+LC03NjQ0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2NTEsLTIwNz
+M3MTE3MV19
 -->
