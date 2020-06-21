@@ -52,7 +52,9 @@ Enable -
 ![](https://i.imgur.com/hk1ZyyH.png)
 Bucket created
 Invoke shell, copied image files
-![]()
+![](https://i.imgur.com/hVrrdzl.png)
+
+
 ![]()
 ![]()
 ![]()
@@ -72,8 +74,8 @@ Invoke shell, copied image files
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDgxNTkzODYsMTEyNTc1ODg3NywyNT
-cxNDI3MzYsMTgxOTMxOTg0NCwyMjgzNDgwODUsMTYwNDAzMTc4
-MSwtNzY0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2NjUxLC0yMD
-czNzExNzFdfQ==
+eyJoaXN0b3J5IjpbMTI1OTE1MTc0MywxMTI1NzU4ODc3LDI1Nz
+E0MjczNiwxODE5MzE5ODQ0LDIyODM0ODA4NSwxNjA0MDMxNzgx
+LC03NjQ0ODczMTQsODA5MzYyOTIsLTE0NjcwODY2NTEsLTIwNz
+M3MTE3MV19
 -->
