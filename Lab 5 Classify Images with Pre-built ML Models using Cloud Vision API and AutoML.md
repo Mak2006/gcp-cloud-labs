@@ -73,7 +73,8 @@ Next we go to Vision and create a dataset.  And give our data.csv file as the in
 Next it seems going to the "Images" tab imports the images
 ![](https://i.imgur.com/iApwNa1.png)
 
-We ran into issues as the bucke
+We ran into issues as the bucket was created in another region, hence we create a bucket in the us-central region and transfer the files.
+
 
 ![]()
 ![]()
@@ -89,9 +90,9 @@ We ran into issues as the bucke
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3Nzk2Mzc2LDc3NDk4Mjc1NiwxMzc3Nj
-EwMjU2LC02NzA2NTk2ODAsLTE5MTI0NDA2MjMsMTA5NDE4NzE4
-NywxMTI1NzU4ODc3LDI1NzE0MjczNiwxODE5MzE5ODQ0LDIyOD
-M0ODA4NSwxNjA0MDMxNzgxLC03NjQ0ODczMTQsODA5MzYyOTIs
-LTE0NjcwODY2NTEsLTIwNzM3MTE3MV19
+eyJoaXN0b3J5IjpbLTMyMDE3ODU0MSw3NzQ5ODI3NTYsMTM3Nz
+YxMDI1NiwtNjcwNjU5NjgwLC0xOTEyNDQwNjIzLDEwOTQxODcx
+ODcsMTEyNTc1ODg3NywyNTcxNDI3MzYsMTgxOTMxOTg0NCwyMj
+gzNDgwODUsMTYwNDAzMTc4MSwtNzY0NDg3MzE0LDgwOTM2Mjky
+LC0xNDY3MDg2NjUxLC0yMDczNzExNzFdfQ==
 -->
