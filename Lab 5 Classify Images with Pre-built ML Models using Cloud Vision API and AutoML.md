@@ -106,18 +106,20 @@ Saved the confusion matrix
 
 ![](https://i.imgur.com/SBdrvm0.png)
 
+Adjusted the confidence threshold to 0.82
+![](https://i.imgur.com/DrdkPpN.png)
 
-![]()
+Generate Predictions
 ![]()
 ![]()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0NTY4NTc1LC0xNjE1Nzk3MDI4LC0yMD
-AwNDE3NjkyLDEzNDUwOTY4NDksMTU4NDQzNDIyNiw4NDYyNjEy
-OSw3NzQ5ODI3NTYsMTM3NzYxMDI1NiwtNjcwNjU5NjgwLC0xOT
-EyNDQwNjIzLDEwOTQxODcxODcsMTEyNTc1ODg3NywyNTcxNDI3
-MzYsMTgxOTMxOTg0NCwyMjgzNDgwODUsMTYwNDAzMTc4MSwtNz
-Y0NDg3MzE0LDgwOTM2MjkyLC0xNDY3MDg2NjUxLC0yMDczNzEx
-NzFdfQ==
+eyJoaXN0b3J5IjpbMTA4OTUwODcwOSwtMTYxNTc5NzAyOCwtMj
+AwMDQxNzY5MiwxMzQ1MDk2ODQ5LDE1ODQ0MzQyMjYsODQ2MjYx
+MjksNzc0OTgyNzU2LDEzNzc2MTAyNTYsLTY3MDY1OTY4MCwtMT
+kxMjQ0MDYyMywxMDk0MTg3MTg3LDExMjU3NTg4NzcsMjU3MTQy
+NzM2LDE4MTkzMTk4NDQsMjI4MzQ4MDg1LDE2MDQwMzE3ODEsLT
+c2NDQ4NzMxNCw4MDkzNjI5MiwtMTQ2NzA4NjY1MSwtMjA3Mzcx
+MTcxXX0=
 -->
