@@ -57,8 +57,61 @@ LIMIT
 
 ```
 
-> Written with [StackEdit](https://stackedit.io/).
+### Using weather dataset
+**ghcn_d** > **ghcnd_2015**
+
+```
+SELECT
+  wx.date,
+  wx.value/10.0 AS prcp
+FROM
+  `bigquery-public-data.ghcn_d.ghcnd_2015` AS wx
+WHERE
+  id = 'USW00094728'
+  AND qflag IS NULL
+  AND element = 'PRCP'
+ORDER BY
+  wx.date
+```
+
+Finding corrrelation
+```
+WITH bicycle_rentals AS (
+  SELECT
+    COUNT(starttime) as num_trips,
+    EXTRACT(DATE from starttime) as trip_date
+  FROM `bigquery-public-data.new_york_citibike.citibike_trips`
+  GROUP BY trip_date
+),
+
+rainy_days AS
+(
+SELECT
+  date,
+  (MAX(prcp) > 5) AS rainy
+FROM (
+  SELECT
+    wx.date AS date,
+    IF (wx.element = 'PRCP', wx.value/10, NULL) AS prcp
+  FROM
+    `bigquery-public-data.ghcn_d.ghcnd_2015` AS wx
+  WHERE
+    wx.id = 'USW00094728'
+)
+GROUP BY
+  date
+)
+
+SELECT
+  ROUND(AVG(bk.num_trips)) AS num_trips,
+  wx.rainy
+FROM bicycle_rentals AS bk
+JOIN rainy_days AS wx
+ON wx.date = bk.trip_date
+GROUP BY wx.rainy
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzA1OTY4MiwtNTE4ODg5OTAzLDczMD
+eyJoaXN0b3J5IjpbLTEzMzMzNzk1NiwtNTE4ODg5OTAzLDczMD
 k5ODExNl19
 -->
