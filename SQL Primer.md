@@ -48,8 +48,14 @@ COL3, ASC / DESC
 
 ### Different Func possible 
 **Mathematical**
+`precipitation/10 AS prcp`
 
+
+### Where clause 
+`id = '32'` a particular id
+`AND`  - AND 
+`OR`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTkzMjAwLC0xNTU1MDczMTE2LDYyMj
-k2NTExMSwtMjUwMDAxMzU2LDMxNzEwNDUxOF19
+eyJoaXN0b3J5IjpbLTE0MzIxOTA5NzUsLTE1NTUwNzMxMTYsNj
+IyOTY1MTExLC0yNTAwMDEzNTYsMzE3MTA0NTE4XX0=
 -->
