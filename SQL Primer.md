@@ -46,8 +46,10 @@ COL3, ASC / DESC
 
 ```
 
+### Different Func possible 
+**Mathematical**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjY4OTkzOSwtMTU1NTA3MzExNiw2Mj
-I5NjUxMTEsLTI1MDAwMTM1NiwzMTcxMDQ1MThdfQ==
+eyJoaXN0b3J5IjpbLTcwNTkzMjAwLC0xNTU1MDczMTE2LDYyMj
+k2NTExMSwtMjUwMDAxMzU2LDMxNzEwNDUxOF19
 -->
