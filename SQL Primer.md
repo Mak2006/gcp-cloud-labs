@@ -1,12 +1,24 @@
 ### Links 
 
 ### Creating 
-
+[link](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/data-engineering/demos/partition.md#create-a-date-partitioned-table-with-sql-ddl)
 ```
-CREATE OR REPLACE TABLE tname
-  PARTITION BY data_formatted
+CREATE OR REPLACE TABLE ecommerce.partitions
+ PARTITION BY date_formatted
+ OPTIONS(
+   description="a table partitioned by date"
+ ) AS
+
+SELECT
+  COUNT(transactionId) AS total_transactions,
+  PARSE_DATE("%Y%m%d", date) AS date_formatted
+FROM
+  `data-to-insights.ecommerce.all_sessions`
+WHERE
+  transactionId IS NOT NULL
+GROUP BY date
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2NzEyMjYyLC0yNTAwMDEzNTYsMzE3MT
+eyJoaXN0b3J5IjpbNjIyOTY1MTExLC0yNTAwMDEzNTYsMzE3MT
 A0NTE4XX0=
 -->
