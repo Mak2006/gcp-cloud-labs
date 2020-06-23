@@ -1,4 +1,8 @@
 ### Links 
+[Modern SQL](https://modern-sql.com/)
+
+[15 minutes of history from Modern SQL](https://modern-sql.com/static/2018-11-DataNatives-Mother-Of-All-Query-Languages.w540.LjXFkxer.mp4)
+
 
 ### Creating 
 [link](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/data-engineering/demos/partition.md#create-a-date-partitioned-table-with-sql-ddl)
@@ -56,6 +60,6 @@ COL3, ASC / DESC
 `AND` `OR` `NOT`  - AND 
 `ISNULL`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4NzE5NjksLTE1NTUwNzMxMTYsNjIyOT
-Y1MTExLC0yNTAwMDEzNTYsMzE3MTA0NTE4XX0=
+eyJoaXN0b3J5IjpbLTE3MzQ4NTM0OTcsLTE1NTUwNzMxMTYsNj
+IyOTY1MTExLC0yNTAwMDEzNTYsMzE3MTA0NTE4XX0=
 -->
