@@ -53,9 +53,9 @@ COL3, ASC / DESC
 
 ### Where clause 
 `id = '32'` a particular id
-`AND`  - AND 
-`OR`
+`AND` `OR` `NOT`  - AND 
+`ISNULL`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIxOTA5NzUsLTE1NTUwNzMxMTYsNj
-IyOTY1MTExLC0yNTAwMDEzNTYsMzE3MTA0NTE4XX0=
+eyJoaXN0b3J5IjpbMzI4NzE5NjksLTE1NTUwNzMxMTYsNjIyOT
+Y1MTExLC0yNTAwMDEzNTYsMzE3MTA0NTE4XX0=
 -->
