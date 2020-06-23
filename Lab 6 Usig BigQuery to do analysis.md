@@ -1,6 +1,5 @@
 ### Bigquery 
-Business need - None as such, here we use 
-In these labs we use the public data sets and play 
+Business need - None as such, here we use public data sets and fire querires using Bq dashboard to evaluate BQ.
 
 The data set is 
 Select **bigquery-public-data** > **new_york_citibike** > **citibike_trips** table.
@@ -112,6 +111,6 @@ GROUP BY wx.rainy
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDkzNzYwNzUsLTUxODg4OTkwMyw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjQ0Mjk0NTM5LC01MTg4ODk5MDMsNzMwOT
+k4MTE2XX0=
 -->
