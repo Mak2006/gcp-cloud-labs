@@ -1,6 +1,9 @@
 ## Loading Taxi Data into Cloud SQL
 
-Business Requirement - Import 
+**Business Requirement** - Import data into cloud SQL and then execute querries. 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzIxMjIyMiwxMjA2MTM3ODk3XX0=
+eyJoaXN0b3J5IjpbMTA2NjU1ODA3NCwxMjA2MTM3ODk3XX0=
 -->
