@@ -1,5 +1,5 @@
 ### Bigquery 
-
+Business need - None as such, here we use 
 In these labs we use the public data sets and play 
 
 The data set is 
@@ -112,6 +112,6 @@ GROUP BY wx.rainy
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzMzNzk1NiwtNTE4ODg5OTAzLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTE0NDkzNzYwNzUsLTUxODg4OTkwMyw3Mz
+A5OTgxMTZdfQ==
 -->
