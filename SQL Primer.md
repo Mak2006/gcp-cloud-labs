@@ -18,7 +18,14 @@ WHERE
   transactionId IS NOT NULL
 GROUP BY date
 ```
+
+### Select syntax master
+
+```
+SELECT
+FUNC(COL_NAME)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyOTY1MTExLC0yNTAwMDEzNTYsMzE3MT
-A0NTE4XX0=
+eyJoaXN0b3J5IjpbLTE1NTUwNzMxMTYsNjIyOTY1MTExLC0yNT
+AwMDEzNTYsMzE3MTA0NTE4XX0=
 -->
